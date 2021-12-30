@@ -1,7 +1,7 @@
-name: Bug Report Template
-description: File a bug report using the Template
+name: Suggestion Template
+description: Give a suggestion using the Template
 title: "[Bug]: <Add Title Here>"
-labels: [BUG]
+labels: [Suggestion]
 body:
   - type: markdown
     attributes:
