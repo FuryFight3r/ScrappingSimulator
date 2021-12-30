@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Bug Report Template
+description: File a bug report using the Template
 title: "[Bug]: <Add Title Here>"
 labels: [bug]
 body:
@@ -18,8 +18,9 @@ body:
     id: reproduction
     attributes:
       label: Reproduction Steps
-      description: Steps to reproduce the behavior
+      description: Steps we can take to get the exact same outcome as you
       placeholder: |
+        Example;
         1. Go to '...'
         2. Click on '....'
         3. Scroll down to '....'
