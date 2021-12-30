@@ -1,7 +1,7 @@
 
 # Scrapping Simulator
 
-This is the official Git repository / issue tracker for DefectGamings Scrapping Simulator.
+This is the official Git repository / Issue tracker for DefectGamings Scrapping Simulator.
 
 ## Bug Reports
 
