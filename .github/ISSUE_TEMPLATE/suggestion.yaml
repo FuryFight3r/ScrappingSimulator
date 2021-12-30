@@ -1,49 +1,23 @@
 name: Suggestion Template
 description: Give a suggestion using the Template
-title: "[Bug]: <Add Title Here>"
+title: "[Suggestion]: <Add Title Here>"
 labels: [Suggestion]
 body:
   - type: markdown
     attributes:
         value: |
-          Thank you for submitting a bug report. Please search if your issue [already exists](https://github.com/FuryFight3r/ScrappingSimulator/labels/bug) before submitting a report.
+          Thank you for taking the time to give us your suggestion! Before we get started, you might want to check if someone else has already suggested it. [Check Existing Suggestions](https://github.com/FuryFight3r/ScrappingSimulator/labels/Suggestion)
   - type: textarea
     id: description
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is.
+      label: Suggestion;
+      description: What would you like to suggest for Scrapping Simulator?
     validations:
       required: true
   - type: textarea
     id: reproduction
     attributes:
-      label: Reproduction Steps
-      description: Steps we can take to get the exact same outcome as you
-      placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+      label: Why is this a good suggestion?
+      description: Please describe why you think this suggestion would work well with Scrapping Simulator
     validations:
-      required: false
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behaviour
-      description: A clear and concise description of what you expected to happen
-    validations:
-      required: false
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots
-      description: If applicable, add screenshots to help explain your problem.
-    validations:
-      required: false
-  - type: textarea
-    id: logs
-    attributes:
-      label: Console output
-      description: While in-game press 'F5' to show the Console, Look for any red error(s), click the error(s) to view the ENTIRE log which will help us find what went wrong.
-    validations:
-      required: false
+      required: true

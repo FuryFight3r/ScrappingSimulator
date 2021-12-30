@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
         value: |
-          Thank you for submitting a bug report. Please search if your issue [already exists](https://github.com/FuryFight3r/ScrappingSimulator/labels/bug) before submitting a report.
+          Thank you for submitting a bug report. Please search if your issue [already exists](https://github.com/FuryFight3r/ScrappingSimulator/labels/BUG) before submitting a report.
   - type: textarea
     id: description
     attributes:
@@ -44,6 +44,6 @@ body:
     id: logs
     attributes:
       label: Console output
-      description: While in-game press 'F5' to show the Console, Look for any red error(s), click the error(s) to view the ENTIRE log which will help us find what went wrong.
+      description: While in-game press 'F5' to show the Console, Look for any red error(s), Make sure to click the error(s) to view the entire log which will help us find what went wrong.
     validations:
       required: false
