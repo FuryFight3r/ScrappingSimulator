@@ -45,5 +45,7 @@ body:
     attributes:
       label: Console output
       description: While in-game press 'F5' to show the Console, Look for any red error(s), Make sure to click the error(s) to view the entire log which will help us find what went wrong.
+      placeholder: |
+        Please place error print outs in the form of a 'Quote' which can be done like so;     > This is a quote and it's nice and neat
     validations:
       required: false
