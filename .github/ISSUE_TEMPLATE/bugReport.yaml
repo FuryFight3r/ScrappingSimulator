@@ -36,12 +36,14 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots
-      description: If applicable, add screenshots to help explain your problem.
+      label: Screenshot(s)/Video(s)
+      description: If applicable, add Screenshots and or Videos to help explain your problem.
+      placeholder: |
+        Please Drag your Screenshot(s) below to upload them, please upload your video(s) to a Video Hosting service and add the link(s) here.
     validations:
       required: false
   - type: textarea
-    id: logs
+    id: console
     attributes:
       label: Console output
       description: While in-game press 'F5' to show the Console, Look for any red error(s), Make sure to click the error(s) to view the entire log which will help us find what went wrong.
@@ -49,5 +51,14 @@ body:
         Please place error print outs in the form of a 'Quote' which can be done like so;
         > This is a quote and it's nice and neat
         > This is the next line of a quote, oh my this looks neat
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Player Logs
+      description: If you are unsure of how to access your Player Logs please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report) Wiki
+      placeholder: |
+        Please Drag your Player.Log and Player-prev.log below to upload the files.
     validations:
       required: false
