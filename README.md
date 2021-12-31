@@ -9,7 +9,7 @@ This is the official Git repository / Issue tracker for DefectGamings Scrapping 
 
 ## Bug Reports
 
-Please post all bug reports in the "issues" section, so I can easily track and manage the issues in the game. Please use the "Bug Report" template.
+[Click Here](https://github.com/FuryFight3r/ScrappingSimulator/issues) to look for any reports that match your potential bug report. If not click 'New Issue' and select the 'Bug Report Template' and fill in the required fields.
 
 ## Frequent Suggestions
 
@@ -17,5 +17,4 @@ Please refer to the [Frequent Suggestions](https://github.com/FuryFight3r/Scrapp
 
 ## Suggestions
 
-Please post all Suggestions in the "issues" section. Please use the "Suggestion" template.
-
+[Click Here](https://github.com/FuryFight3r/ScrappingSimulator/issues) to look for any suggestions that match your potential suggestion. If not click 'New Issue' and select the 'Suggestion Template' and fill in the required fields.
