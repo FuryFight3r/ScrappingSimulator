@@ -13,7 +13,7 @@ This is the official Git repository / Issue tracker for DefectGamings Scrapping 
 
 ## Frequent Suggestions
 
-Please refer to the [Frequent Suggestions](https://github.com/FuryFight3r/ScrappingSimulator/wiki/Frequent-Suggestions) before posting a suggestion to save suggesting something that may have already been suggested before.
+Please refer to the [Frequent Suggestions](https://github.com/FuryFight3r/ScrappingSimulator/wiki/Frequent-Suggestions) before posting a suggestion to save suggesting something that may have already been suggested before, feel free to comment on a suggestion if it is the same/similar to yours to add your point of view also.
 
 ## Suggestions
 
