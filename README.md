@@ -1,5 +1,5 @@
 
-# Scrapping Simulator
+![Scrapping Simulator](https://i.imgur.com/6zjckQl.png)
 
 This is the official Git repository / Issue tracker for DefectGamings Scrapping Simulator.
 
