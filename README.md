@@ -5,7 +5,7 @@ This is the official Git repository / Issue tracker for DefectGamings Scrapping 
 
 ## Scrapping Simulator Road Map - 2022
 
-[Click Here](https://github.com/FuryFight3r/ScrappingSimulator/wiki/Scrapping-Simulator-Road-Map---2022) to checkout Scrapping Simulators Road Map (Currently a WIP).
+[Click Here](https://github.com/FuryFight3r/ScrappingSimulator/wiki/Scrapping-Simulator-Road-Map-2022) to checkout Scrapping Simulators Road Map (Currently a WIP).
 
 ## Bug Reports
 
