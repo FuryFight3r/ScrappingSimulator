@@ -57,7 +57,7 @@ body:
     id: logs
     attributes:
       label: Player Logs
-      description: If you are unsure of how to access your Player Logs please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report) Wiki
+      description: If you are unsure of how to access your Player Logs please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki
       placeholder: |
         Please Drag your Player.Log and Player-prev.log below to upload the files.
     validations:
