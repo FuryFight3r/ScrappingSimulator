@@ -18,3 +18,7 @@ Please refer to the [Frequent Suggestions](https://github.com/FuryFight3r/Scrapp
 ## Suggestions
 
 [Click Here](https://github.com/FuryFight3r/ScrappingSimulator/issues) to look for any suggestions that match your potential suggestion. If not click 'New Issue' and select the 'Suggestion Template' and fill in the required fields.
+
+## Minimizing potential Save File Corruption when updating Scrapping Simulator.
+
+[Click Here](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-minimize-Save-File-corruption-when-Updating-Scrapping-Simulator) to view a small guide on how to minimize Save File/Object Corruption when Updating to a newer version of Scrapping Simulator.
