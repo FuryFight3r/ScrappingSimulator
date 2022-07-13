@@ -59,16 +59,7 @@ body:
       description: If you are unable to locate any Errors in the Console please provide your Player Logs, which gives us a breif detail of your system specs and all the Console print outs for your your last 2 Game Launches
       placeholder: |
         Please Drag your Player.Log and Player-prev.log below to upload the files.
+        You can also add your Save-File here by adding [Player.log], [Player-prev.log] and [Scrapping_Simulator_Data.es3] into a Zip folder and dragging it here.
         If you are unsure of where to find your Player Logs please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki
-    validations:
-      required: false
-  - type: textarea
-    id: save
-    attributes:
-      label: Save File
-      description: If you are unable to explain the error or cannot find any errors in the logs you can provide your Save File so we can load up your save and find the error(s)
-      placeholder: |
-        Please Drag your [Scrapping_Simulator_Data.es3] file below to upload your save.
-        If you are unsure of where to find your Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki
     validations:
       required: false
