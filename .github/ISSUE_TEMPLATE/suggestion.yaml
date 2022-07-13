@@ -2,22 +2,36 @@ name: Suggestion Template
 description: Give a suggestion using the Template
 title: "[Suggestion]: <Add Title Here>"
 labels: [Suggestion]
+assignees: "FuryFight3r"
 body:
   - type: markdown
     attributes:
         value: |
-          Thank you for taking the time to give us your suggestion! Before we get started, you might want to check if someone else has already suggested it. [Check Existing Suggestions](https://github.com/FuryFight3r/ScrappingSimulator/labels/Suggestion)
+          Thank you for taking the time to give us your suggestion! 
+          We are always excited to hear what our players would like too see in the Game! 
+          Before we get started, please make sure someone else has not already suggested your idea. 
+          [Check Existing Suggestions](https://github.com/FuryFight3r/ScrappingSimulator/labels/Suggestion)
+
   - type: textarea
     id: description
     attributes:
-      label: Suggestion;
+      label: What is your description?
       description: What would you like to suggest for Scrapping Simulator?
     validations:
       required: true
+
   - type: textarea
-    id: reproduction
+    id: scope
     attributes:
-      label: Why is this a good suggestion?
-      description: Please describe why you think this suggestion would work well with Scrapping Simulator
+      label: How will this suggestion fit into the Scope of Scrapping Simulator?
+      description: Please describe why you think this suggestion would work well with Scrapping Simulators Scope.
+    validations:
+      required: true
+
+  - type: textarea
+    id: community
+    attributes:
+      label: How would the Game and Community benefit from this suggestion?
+      description: Please describe how both Scrapping Simulator and the Community would benefit from your suggestion moving forward.
     validations:
       required: true
