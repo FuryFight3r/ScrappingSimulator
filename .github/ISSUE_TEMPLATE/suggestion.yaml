@@ -15,7 +15,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: What is your description?
+      label: What is your Suggestion?
       description: What would you like to suggest for Scrapping Simulator?
     validations:
       required: true
