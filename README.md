@@ -13,6 +13,10 @@ This is the official Git repository / Issue tracker for DefectGamings Scrapping 
 
 [Click Here](https://github.com/FuryFight3r/ScrappingSimulator/issues) to look for any reports that match your potential bug report. If not click 'New Issue' and select the 'Bug Report Template' and fill in the required fields.
 
+## How to Find Scrapping Simulator Error Logs and Player Save File
+
+[Click Here](https://github.com/FuryFight3r/ScrappingSimulator/wiki/Where-to-find-Scrapping-Simulator-Save-File-and-Error-Logs) for a breif guide on how to access your Player Save File for Backup or Bug Repair & Player Error Log Files to help find the cause of a bug.
+
 ## Frequent Suggestions
 
 Please refer to the [Frequent Suggestions](https://github.com/FuryFight3r/ScrappingSimulator/wiki/Frequent-Suggestions) before posting a suggestion to save suggesting something that may have already been suggested before, feel free to comment on a suggestion if it is the same/similar to yours to add your point of view also.
