@@ -7,7 +7,13 @@ body:
   - type: markdown
     attributes:
         value: |
+          If your Bug Report is in relation to an Object Disapearing or something else odd happening have you considered checking the Lost & Found Box next to your PC or the Commands panel (accessed by pressing [F1] or Tilde [~]) which may solve known bugs.
+
+          If something is consistently breaking and needing a command to fix, then please post a Bug Report including the process on how to make the object consistently break.
+
           Thank you for submitting a bug report. Please search if your issue [already exists](https://github.com/FuryFight3r/ScrappingSimulator/labels/BUG) before submitting a report.
+
+
   - type: textarea
     id: description
     attributes:
