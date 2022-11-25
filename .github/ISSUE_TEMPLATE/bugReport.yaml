@@ -6,8 +6,10 @@ assignees: "FuryFight3r"
 body:
   - type: markdown
     attributes:
+        label: [PLEASE NOTE]
         value: |
-          If your Bug Report is in relation to an Object Disapearing or something else odd happening have you considered checking the Lost & Found Box next to your PC or the Commands panel (accessed by pressing [F1] or Tilde [~]) which may solve known bugs.
+         
+          If your Bug Report is in relation to an Object Disapearing have you considered checking the Lost & Found Box next to your PC? or if it is something else odd is happening have you checked the Commands panel (accessed by pressing [F1] or Tilde [~]) which has Commands to solve some known bugs.
 
           If something is consistently breaking and needing a command to fix, then please post a Bug Report including the process on how to make the object consistently break.
 
