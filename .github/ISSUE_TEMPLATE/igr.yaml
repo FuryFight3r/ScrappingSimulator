@@ -20,14 +20,17 @@ body:
   - type: markdown
     id: checkboxes
     attributes:
+    label: Some Quick Questions
       value: |
         - Have you tried restarting the Game?
-          - [x] Yes
+          - [ ] Yes
           - [ ] No
         - What was the State of the Bug after Restarting?
-          - [x] Returned to Normal, Can't Reproduce
-          - [ ] Returned to Normal was able to reproduce
+          - [ ] Returned to Normal, But can't Reproduce the Bug
+          - [ ] Returned to Normal, But was able to reproduce the Bug again
           - [ ] Still Bugged immediately after Reloading
+    validations:
+      required: true
 
   - type: textarea
     id: description
