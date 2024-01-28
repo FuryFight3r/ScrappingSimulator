@@ -13,7 +13,7 @@ body:
     attributes:
       label: Automatically Generated Bug Zip File
       description: Please drag and drop the generated zip file (PlayerName_GameVersion_BugReport.zip) into this field.
-      placeholder: Drag & Drop the Generated Zip File Here
+      placeholder: Drag & Drop the Generated Zip File Here - Click this Box First to activate and allow dropping of File.
     validations:
       required: true
 
