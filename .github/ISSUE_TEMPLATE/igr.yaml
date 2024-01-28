@@ -8,26 +8,31 @@ body:
           This Bug Report Template is designed for use within the In-Game Bug Report feature. Access it by pressing [F8] in-game.
           Using this Template outside the In-Game Bug Report Interface may result in inaccurately filled fields and automatic closure of the report.
 
+  - type: dropdown
+    attributes:
+      label: Have you tried Restarting the Game?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: What was the outcome after Restarting?
+      options:
+        - Returned to Normal, But cannot Reproduce the Bug
+        - Returned to Normal, But was able to reproduce the Bug again
+        - Still Bugged immediately after Reloading the Game
+    validations:
+      required: true
+
   - type: textarea
     id: bugfile
     attributes:
       label: Automatically Generated Bug Zip File
       description: Please drag and drop the generated zip file (PlayerName_GameVersion_BugReport.zip) into this field.
       placeholder: Drag & Drop the Generated Zip File Here - Click this Box First to activate and allow dropping of File.
-    validations:
-      required: true
-
-  - type: markdown
-    id: checkboxes
-    attributes:
-      value: |
-        - Have you tried restarting the Game?
-          - [ ] Yes
-          - [ ] No
-        - What was the State of the Bug after Restarting?
-          - [ ] Returned to Normal, But can't Reproduce the Bug
-          - [ ] Returned to Normal, But was able to reproduce the Bug again
-          - [ ] Still Bugged immediately after Reloading
     validations:
       required: true
 
