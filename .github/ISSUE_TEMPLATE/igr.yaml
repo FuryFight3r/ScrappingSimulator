@@ -8,7 +8,16 @@ body:
           This Bug Report Template is designed for use within the In-Game Bug Report feature. Access it by pressing [F8] in-game.
           Using this Template outside the In-Game Bug Report Interface may result in inaccurately filled fields and automatic closure of the report.
 
-    - type: markdown
+  - type: textarea
+    id: bugfile
+    attributes:
+      label: Automatically Generated Bug Zip File
+      description: Please drag and drop the generated zip file (PlayerName_GameVersion_BugReport.zip) into this field.
+      placeholder: Drag & Drop the Generated Zip File Here - Click this Box First to activate and allow dropping of File.
+    validations:
+      required: true
+
+  - type: markdown
     id: checkboxes
     attributes:
       value: |
@@ -19,16 +28,6 @@ body:
           - [x] Returned to Normal, Can't Reproduce
           - [ ] Returned to Normal was able to reproduce
           - [ ] Still Bugged immediately after Reloading
-
-
-  - type: textarea
-    id: bugfile
-    attributes:
-      label: Automatically Generated Bug Zip File
-      description: Please drag and drop the generated zip file (PlayerName_GameVersion_BugReport.zip) into this field.
-      placeholder: Drag & Drop the Generated Zip File Here - Click this Box First to activate and allow dropping of File.
-    validations:
-      required: true
 
   - type: textarea
     id: description
