@@ -8,6 +8,19 @@ body:
           This Bug Report Template is designed for use within the In-Game Bug Report feature. Access it by pressing [F8] in-game.
           Using this Template outside the In-Game Bug Report Interface may result in inaccurately filled fields and automatic closure of the report.
 
+    - type: markdown
+    id: checkboxes
+    attributes:
+      value: |
+        - Have you tried restarting the Game?
+          - [x] Yes
+          - [ ] No
+        - What was the State of the Bug after Restarting?
+          - [x] Returned to Normal, Can't Reproduce
+          - [ ] Returned to Normal was able to reproduce
+          - [ ] Still Bugged immediately after Reloading
+
+
   - type: textarea
     id: bugfile
     attributes:
