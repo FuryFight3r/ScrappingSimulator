@@ -66,8 +66,8 @@ body:
       label: Player Logs
       description: If you are unable to locate any Errors in the Console please provide your Player Logs, which gives us a breif detail of your system specs and all the Console print outs for your your last 2 Game Launches
       placeholder: |
-        Please Drag your Player.Log and Player-prev.log below to upload the files.
+        Please Click here and then Drag your Player.Log and Player-prev.log below to upload the files.
         You can also add your Save-File here by adding [Player.log], [Player-prev.log] and [Scrapping_Simulator_Data.es3] into a Zip folder and dragging it here.
-        If you are unsure of where to find your Player Logs please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki
+        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki
     validations:
       required: false

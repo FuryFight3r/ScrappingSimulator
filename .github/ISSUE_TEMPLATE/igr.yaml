@@ -1,0 +1,54 @@
+name: In-Game Bug Report Template
+description: File a bug report using the Template
+title: ""
+labels:
+assignees: ""
+body:
+  - type: markdown
+    attributes:
+        value: |
+          [IMPORTANT] 
+          This Bug Report Template is designed for use within the In-Game Bug Report feature. Access it by pressing [F8] in-game.
+          Using this Template outside the In-Game Bug Report Interface may result in inaccurately filled fields and automatic closure of the report.
+
+  - type: textarea
+    id: bugfile
+    attributes:
+      label: Automatically Generated Bug Zip File
+      description: Please drag and drop the generated zip file (PlayerName_GameVersion_BugReport.zip) into this field.
+      placeholder: Drag & Drop the Generated Zip File Here
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the Bug
+      description: Provide a detailed description of the bug, including events leading up to its occurrence.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Outline the steps needed to reproduce the bug on the developer's system.
+      placeholder: |
+        Example:
+        1. Go to Hardware Store.
+        2. Purchase Radio.
+        3. Open Box Containing Radio
+        4. Radio Won't Appear
+        5. Error '......' was produced in the [F5] Menu
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshot(s)/Video(s)
+      description: Please upload screenshots and/or provide links to videos that help illustrate the issue.
+      placeholder: |
+        Drag your screenshot(s) here to upload. For videos, please provide links to video host services like YouTube.
+    validations:
+      required: true
