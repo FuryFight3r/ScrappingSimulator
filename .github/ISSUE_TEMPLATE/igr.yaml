@@ -12,8 +12,9 @@ body:
     attributes:
       label: Have you tried Restarting the Game?
       options:
-        - "Yes"
+        - "Please Select"
         - "No"
+        - "Yes"
     validations:
       required: true
 
@@ -21,6 +22,7 @@ body:
     attributes:
       label: What was the outcome after Restarting?
       options:
+        - "Please Select"
         - Returned to Normal, But cannot Reproduce the Bug
         - Returned to Normal, But was able to reproduce the Bug again
         - Still Bugged immediately after Reloading the Game
