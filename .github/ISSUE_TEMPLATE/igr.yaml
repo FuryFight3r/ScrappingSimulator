@@ -1,8 +1,5 @@
 name: In-Game Bug Report Template
 description: File a bug report using the Template
-title: ""
-labels:
-assignees: ""
 body:
   - type: markdown
     attributes:
