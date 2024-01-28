@@ -12,8 +12,8 @@ body:
     attributes:
       label: Have you tried Restarting the Game?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
