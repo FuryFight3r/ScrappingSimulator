@@ -20,7 +20,6 @@ body:
   - type: markdown
     id: checkboxes
     attributes:
-      label: Some Quick Questions
       value: |
         - Have you tried restarting the Game?
           - [ ] Yes
