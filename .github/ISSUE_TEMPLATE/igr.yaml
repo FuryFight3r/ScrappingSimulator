@@ -5,8 +5,8 @@ body:
     attributes:
         value: |
           [IMPORTANT] 
-          This Bug Report Template is designed for use within the In-Game Bug Report feature. Access it by pressing [F8] in-game.
-          Using this Template outside the In-Game Bug Report Interface may result in inaccurately filled fields and automatic closure of the report.
+          This Bug Report Template is designed for use within the In-Game Bug Report feature. Which can be accessed by pressing [F8] in-game.
+          Using this Template outside the In-Game Bug Report Interface may result in inaccurately/incomplete filled fields and automatic closure of the report.
 
   - type: dropdown
     attributes:
@@ -43,6 +43,7 @@ body:
     attributes:
       label: Describe the Bug
       description: Provide a detailed description of the bug, including events leading up to its occurrence.
+      placeholder: You could describe events leading upto the bug and the bug you experienced.
     validations:
       required: true
 
@@ -65,8 +66,8 @@ body:
     id: screenshots
     attributes:
       label: Screenshot(s)/Video(s)
-      description: Please upload screenshots and/or provide links to videos that help illustrate the issue.
+      description: Please upload screenshots and/or provide links to videos that help illustrate the issue (If unable to provide media type 'Not Applicable').
       placeholder: |
-        Drag your screenshot(s) here to upload. For videos, please provide links to video host services like YouTube.
+        Drag your screenshot(s) here to upload. For videos, please provide links to video host services like YouTube (Click this box first to activate the Text Box).
     validations:
       required: true
