@@ -15,12 +15,13 @@ body:
         - "Please Select"
         - "No"
         - "Yes"
+        - "Cannot Save due to bug"
     validations:
       required: true
 
   - type: dropdown
     attributes:
-      label: What was the outcome after Restarting?
+      label: (If 'Yes') what was the outcome after Restarting?
       options:
         - "Please Select"
         - Returned to Normal, But cannot Reproduce the Bug
@@ -42,8 +43,8 @@ body:
     id: description
     attributes:
       label: Describe the Bug
-      description: Provide a detailed description of the bug, including events leading up to its occurrence.
-      placeholder: You could describe events leading upto the bug and the bug you experienced.
+      description: Please describe the bug, including events leading up to its occurrence to help track it's potential cause.
+      placeholder: Please describe the bug you experienced
     validations:
       required: true
 
@@ -66,7 +67,7 @@ body:
     id: screenshots
     attributes:
       label: Screenshot(s)/Video(s)
-      description: Please upload screenshots and/or provide links to videos that help illustrate the issue (If unable to provide media type 'Not Applicable').
+      description: Please upload screenshots and/or provide links to videos that help illustrate the issue (If unable to provide media type 'Not Applicable' or 'N/A' and why).
       placeholder: |
         Drag your screenshot(s) here to upload. For videos, please provide links to video host services like YouTube (Click this box first to activate the Text Box).
     validations:
