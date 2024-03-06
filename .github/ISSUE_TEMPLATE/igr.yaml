@@ -1,5 +1,5 @@
 name: In-Game Bug Report Template
-description: File a bug report using the Template
+description: In-Game Bug Report Template
 body:
   - type: markdown
     attributes:
@@ -15,7 +15,7 @@ body:
         - "Please Select"
         - "No"
         - "Yes"
-        - "Cannot Save due to bug"
+        - "Cannot Save/Exit due to bug"
     validations:
       required: true
 
@@ -27,6 +27,18 @@ body:
         - Returned to Normal, But cannot Reproduce the Bug
         - Returned to Normal, But was able to reproduce the Bug again
         - Still Bugged immediately after Reloading the Game
+        - Even worse after Reloading the Game
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: How are Decimal Numbers normally Displayed on your Machine In-Game?
+      options:
+        - "Please Select"
+        - "v0.35.6 & $45.75"
+        - "v0,35,6 & $45,75"
+        - "Neither of the above"
     validations:
       required: true
 
@@ -34,7 +46,7 @@ body:
     id: bugfile
     attributes:
       label: Automatically Generated Bug Zip File
-      description: Please drag and drop the generated zip file (PlayerName_GameVersion_BugReport.zip) into this field.
+      description: Please drag and drop the generated zip file (PlayerName_SavedGameVersion_CurrentGameVersion_BugReport.zip) into this field.
       placeholder: Drag & Drop the Generated Zip File Here - Click this Box First to activate and allow dropping of File.
     validations:
       required: true
@@ -52,9 +64,9 @@ body:
     id: reproduction
     attributes:
       label: Steps to Reproduce
-      description: Outline the steps needed to reproduce the bug on the developer's system.
+      description: Outline the steps needed to reproduce the bug.
       placeholder: |
-        Example:
+        Example;
         1. Go to Hardware Store.
         2. Purchase Radio.
         3. Open Box Containing Radio
