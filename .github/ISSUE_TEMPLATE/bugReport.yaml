@@ -11,7 +11,15 @@ body:
 
           Have you considered Using the In-Game Bug Report feature by Pressing [F8]? Many hours were invested in creating this system to not only make your life easier creating reports, but it also makes my life easier by automatically packing your Log Files and Save file, You may think you can save time by not providing these crucial files, but in the long run it offen just delays the potential for your reported bug to be fixed.
 
-          More so recently a lot of User/System Specific Errors are making an appearance, if something is so Blatently Broken that makes you think; "How the heck can a game even be on steam with 'such and such' core mechanic being broken and the game being completely unplayable?!" - Please put into consideratiuon that this might just be a 'You' problem which means this is VERY difficult to Find, Fix and Patch on my end, given a brief description that is unrepeatable on my system - This is where Player Logs and potentially Save File would basically be a requirement to have this issue fixed for you.
+          More so recently a lot of User/System Specific Errors are making an appearance, or atleast Bugs that just arent repeatable on My System, if something is so Blatently Broken that makes you think; "How the heck can a game even be on steam with 'such and such' core mechanic being broken and the game being completely unplayable?!" - Please put into consideration that this might just be a 'You' problem (or in other words a User/System Specific Bug that only happens to you, or a very select few users) which means this is VERY difficult to Reproduce, Find, Fix and Patch on my end - This is where Player Logs and potentially Save File would basically be a requirement to have this issue fixed for you, otherwise I'm just chasing 'Phantom Bugs' and wasting time that could have been better spent on progressing Development on the Game.
+
+          I do my absolute best to ensure that the full game, it''s intended way of playing and all it's core mechanics are fully operational before Each and Every Update Release - so for some Main Mechanic/System to be broken it's quite unlikely it's the entire User Base that is experienciung this issue and may more lean toward a User/System Specific Bug not a Global Bug.
+
+          One MAJOR cause for known System Specific Bugs is Users whom have their Decimal Numbers Displayed with Commas (for example v0,37 instead of v0.37 or $599,95 instead of $599.95) which seems to be associated to European locations from what I gathered online - There are still known lingering bugs to this user base, seeing as I am not from Europe or any other Areas that use the Comma style Decimal, I cannot test/fix/patch these issues without knowing what said issues are.
+
+          Reports from this userbase offen report of not being able to Load their Save File, or if they can load their save file often loads with Data missing - without Player Logs I cannot fix these issues, so they have been swept under the rug and put in the 'unfixable' category until someone can provide logs of these errors happening
+
+          [Other Info]
 
           If your Bug Report is in relation to an Object Disapearing have you considered checking the Lost & Found Box next to your Personal Computer? or if it is something else odd is happening have you checked the Commands panel (accessed by pressing [F1] or Tilde [~]) which has Commands to solve some known bugs.
 
@@ -25,7 +33,7 @@ body:
       label: Describe the bug
       description: A clear description of what the bug is you experienced - Try Include events leading upto the error.
       placeholder: |
-        A good Report should include events leading up to the Bug not only just the Bug.
+        A good Report should include events leading up to the Bug not only just the Bug itself.
         Example of a poorly described bug; 'PC randomly vanished for no reason'
         Example of a well described bug; 'Each time I put a PC onto the Disassembly Desk it Vanishes, I've tried with multiple PCs and each one vanished so it wasnt a random once off, other Items all work fine, Restarting doesnt fix the issue.'
     validations:
