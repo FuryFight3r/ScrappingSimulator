@@ -1,6 +1,6 @@
 name: Bug Report Template
 description: File a bug report using the Template
-title: "[Bug]: <Add Title Here>"
+title: "[Bug]: "
 labels: [BUG]
 assignees: "FuryFight3r"
 body:
@@ -9,65 +9,59 @@ body:
         value: |
           [PLEASE NOTE] 
 
-          If your Bug Report is in relation to an Object Disapearing have you considered checking the Lost & Found Box next to your PC? or if it is something else odd is happening have you checked the Commands panel (accessed by pressing [F1] or Tilde [~]) which has Commands to solve some known bugs.
+          Have you considered Using the In-Game Bug Report feature by Pressing [F8]? Many hours were invested in creating this system to not only make your life easier creating reports, but it also makes my life easier by automatically packing your Log Files and Save file, You may think you can save time by not providing these crucial files, but in the long run it offen just delays the potential for your reported bug to be fixed.
 
-          If something is consistently breaking and needing a command to fix, then please post a Bug Report including the process on how to make the object consistently break.
+          More so recently a lot of User/System Specific Errors are making an appearance, if something is so Blatently Broken that makes you think; "How the heck can a game even be on steam with 'such and such' core mechanic being broken and the game being completely unplayable?!" - Please put into consideratiuon that this might just be a 'You' problem which means this is VERY difficult to Find, Fix and Patch on my end, given a brief description that is unrepeatable on my system - This is where Player Logs and potentially Save File would basically be a requirement to have this issue fixed for you.
 
-          Thank you for submitting a bug report. Please search if your issue [already exists](https://github.com/FuryFight3r/ScrappingSimulator/labels/BUG) before submitting a report.
+          If your Bug Report is in relation to an Object Disapearing have you considered checking the Lost & Found Box next to your Personal Computer? or if it is something else odd is happening have you checked the Commands panel (accessed by pressing [F1] or Tilde [~]) which has Commands to solve some known bugs.
 
+          If something is consistently breaking and needing a command to fix (this is NOT normal - Commands are there to remedy Broken Data, Fix Some Loops, Unstick Player etc, not as a constant means of repairing) then please post a Bug Report including the process on how to make the bug appear repeatedly.
+
+          Thank you for taking the time submitting a bug report.
 
   - type: textarea
     id: description
     attributes:
       label: Describe the bug
-      description: A clear and concise description of what the bug is - Try Include events leading upto the error.
+      description: A clear description of what the bug is you experienced - Try Include events leading upto the error.
+      placeholder: |
+        A good Report should include events leading up to the Bug not only just the Bug.
+        Example of a poorly described bug; 'PC randomly vanished for no reason'
+        Example of a well described bug; 'Each time I put a PC onto the Disassembly Desk it Vanishes, I've tried with multiple PCs and each one vanished so it wasnt a random once off, other Items all work fine, Restarting doesnt fix the issue.'
     validations:
       required: true
   - type: textarea
     id: reproduction
     attributes:
       label: Reproduction Steps
-      description: Steps we can take to get the exact same outcome as you
+      description: Please provide steps to get the exact same outcome as you - It's very rare that a bug 'just happened for no reason' 9/10 times there is a cause behind it and even sometimes very specific Steps involved to recreate the Issue - For example, Saving/Loading can be a great way fix some bugs, but on certain occasions it can be a cause for major issues, so if you recently Saved/Loaded to then find an issue that wasnt there before, consider including this crucial information in your report
       placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
+        EXAMPLE;
+        1. Go to the Personal Computer.
+        2. Open the Games Folder.
+        3. Leave Games Folder Open and exit the PC.
+        4. Go to Sleep.
+        5. Go back to the Personal Computer.
+        6. Games Folder is now gone and cannot be Opened again.
     validations:
-      required: false
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behaviour
-      description: A clear and concise description of what you expected to happen
-    validations:
-      required: false
+      required: true
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshot(s)/Video(s)
-      description: If applicable, add Screenshots and or Videos to help explain the problem you are facing.
+      description: Consider providing Screenshot(s) and or Video(s) to help explain your issue.
       placeholder: |
-        Please Drag your Screenshot(s) below to upload them, please upload your video(s) to a Video Hosting service (ie Youtube) and add the link(s) here.
-    validations:
-      required: false
-  - type: textarea
-    id: console
-    attributes:
-      label: Console output
-      description: While in-game press 'F5' to show the Console Log, Look for any recent red error(s), Make sure to click the error(s) to view the entire log and click [Copy] which will greatly help us find what went wrong.
-      placeholder: |
-        If you find any recent Error Logs that seem to match up with the issue you are facing, please post them here which will greatly speed up the fixing process.
+        Drag your Screenshot(s) below to upload them, Upload your video(s) to a Video Hosting service of choice (ie Youtube) and add the link(s) here.
     validations:
       required: false
   - type: textarea
     id: logs
     attributes:
       label: Player Logs
-      description: If you are unable to locate any Errors in the Console please provide your Player Logs, which gives us a breif detail of your system specs and all the Console print outs for your your last 2 Game Launches
+      description: Please provide your player logs - This Field is now required due to recent refusal to provide logs for User/System Specific Issues
       placeholder: |
         Please Click here and then Drag your Player.Log and Player-prev.log below to upload the files.
         You can also add your Save-File here by adding [Player.log], [Player-prev.log] and [Scrapping_Simulator_Data.es3] into a Zip folder and dragging it here.
-        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki
+        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report.
     validations:
-      required: false
+      required: true
