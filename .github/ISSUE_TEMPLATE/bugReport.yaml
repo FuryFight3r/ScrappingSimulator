@@ -7,25 +7,23 @@ body:
   - type: markdown
     attributes:
         value: |
-          [PLEASE NOTE] 
+        [PLEASE NOTE]
 
-          Have you considered Using the In-Game Bug Report feature by Pressing [F8]? Many hours were invested in creating this system to not only make your life easier creating reports, but it also makes my life easier by automatically packing your Log Files and Save file, You may think you can save a few minutes by not providing these crucial files, but in the long run it offen just delays the potential for your reported bug to be fixed.
+        Before proceeding with your bug report, have you explored the in-game bug reporting feature accessible by pressing [F8]? This feature is designed to streamline the reporting process by automatically bundling essential log files and save data. While it may seem like a minor inconvenience, providing these files significantly expedites the resolution of reported issues.
 
-          More so recently a lot of User/System Specific Errors are making an appearance, or atleast Bugs that just arent repeatable on My System, if something is so Blatently Broken that makes you think; "How the heck can a game even be on steam with 'such and such' core mechanic being broken and the game being completely unplayable?!" - Please put into consideration that this might just be what some would call a 'You' problem (or in other words a User/System Specific Bug that only happens to you, or a very select few users) which means this is VERY difficult to Reproduce, Find, Fix and Patch on my end - This is where Player Logs and potentially Save File would basically be a requirement to have this issue fixed for you, otherwise I'm just chasing 'Phantom Bugs' and wasting time that could have been better spent on progressing Development on the Game.
+        Recently, I've encountered numerous user/system-specific reports coming in that may not manifest on every system, making them particularly challenging to address without comprehensive information. If you encounter an issue that appears isolated to your system, it's crucial to understand that resolving such 'phantom bugs' requires Player Logs most importantly with your Bug Report. Without this data, identifying and rectifying the problem becomes akin to chasing shadows, diverting resources and time from the game's development.
 
-          I do my absolute best to ensure that the full game, it''s intended way of playing and all it's core mechanics are fully operational before Each and Every Update Release - so for some Main Mechanic/System to be broken it's quite unlikely it's the entire User Base that is experienciung this issue and may more lean toward a User/System Specific Bug not a Global Bug.
+        Efforts are consistently made to ensure the game functions as intended before each update release. Granted, unforeseen complications can arise in this complex project and things can be overlooked at times - If a core mechanic or system is found to be dysfunctional, it's unlikely to affect the entire user base and often points to a user/system-specific bug rather than a global issue.
 
-          One MAJOR cause for known System Specific Bugs is Users whom have their Decimal Numbers Displayed with Commas (for example v0,37 instead of v0.37 or $599,95 instead of $599.95) which seems to be associated to European locations from what I gathered online - There are still known lingering bugs to this user base, seeing as I am not from Europe or any other Areas that use the Comma style Decimal, I cannot test/fix/patch these issues without knowing what said issues are.
+        One prevalent cause of known system-specific bugs is the usage of decimal numbers displayed with commas (e.g., v0,37 instead of v0.37 or $599,95 instead of $599.95), commonly observed in European regions. As I'm not located in Europe or regions utilizing comma-style decimals, addressing these issues necessitates understanding their specifics.
 
-          Reports from this userbase offen report of not being able to Load their Save File, or if they can load their save file often loads with Data missing - without Player Logs I cannot fix these issues, so they have been swept under the rug and put in the 'unfixable' category until someone can provide logs of these errors happening
+        Reports from users in such regions often cite difficulties loading save files, experiencing crashes during loading, or encountering missing data upon successful load. Without player logs, resolving these issues remains challenging since the majority of players—including myself—do not encounter them. Consequently, these issues are temporarily categorized as 'unfixable' until detailed logs are provided by affected users.
 
-          [Other Info]
+        [Other Info]
 
-          If your Bug Report is in relation to an Object Disapearing have you considered checking the Lost & Found Box next to your Personal Computer? or if it is something else odd is happening have you checked the Commands panel (accessed by pressing [F1] or Tilde [~]) which has Commands to solve some known bugs.
+        If your bug report pertains to objects disappearing or falling through the ground, have you checked the Lost & Found Box adjacent to your Personal Computer? Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~]), which offers solutions for some known bugs.
 
-          If something is consistently breaking and needing a command to fix (this is NOT normal - Commands are there to remedy Broken Data, Fix Some Loops, Unstick Player etc, not as a constant means of repairing) then please post a Bug Report including the process on how to make the bug appear repeatedly.
-
-          Thank you for taking the time submitting a bug report.
+        Persistent issues requiring frequent command usage for resolution are not typical. Commands are intended to address broken data, code death loops, or player stuck instances, rather than serve as a recurring means of repair. If you encounter such issues, please submit a bug report detailing the process to reproduce the bug consistently.
 
   - type: textarea
     id: description
