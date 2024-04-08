@@ -110,3 +110,13 @@ body:
         If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report to ensure your report doesnt get closed without a resolution. Or consider using the In-Game Report [F8] feature which takes out the hard work of Reading and File Gathering for you.
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+        value: |
+          ### [PLEASE NOTE]
+          
+          > [!CAUTION]
+          > Have you made sure to include Crucial Information Such as Logs, Screenshots, Save File, Well Described Description, Reproductioon Steps, etc?
+
+          - [ ] Yes, I feel I've completed my bug report to a satisfactory standard :tada:
