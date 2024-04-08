@@ -9,17 +9,50 @@ body:
         value: |
           ### [PLEASE NOTE]
           
-          Before proceeding with your bug report, have you explored the **In-Game Bug Reporting Feature** accessible by pressing **[F8]**? This feature was designed to streamline the reporting process by automatically bundling essential log files and save data. While it may seem like a minor inconvenience, providing these files significantly expedites the resolution of reported issues.
-          
-          Recently, I've encountered more user/system-specific reports coming in that may not manifest on every system, making them particularly challenging to address without comprehensive information. If you encounter an issue that appears isolated to your system, it's crucial to understand that resolving such 'phantom bugs' requires Player Logs most importantly with your Bug Report. Without this info, identifying and rectifying the problem becomes akin to chasing shadows, diverting resources and time from the game's development, further delaying release.
-          
-          Efforts are consistently made to ensure the game functions as intended before each update. Granted, unforeseen complications can happen and things can be overlooked at times, remember I am one inexperienced Person trying to do it all for the first time with minimal funding and limited spare time - If a core mechanic or system is found to be dysfunctional, such as Saving/Loading, Picking up Objects, Disassembling, etc (ie the Core Mechanics), it can be unlikely to affect the entire user base as these systems are generally thoroughly tested before releasing each Update, which could lean toward a user/system-specific bug rather than a global issue.
-          
+          **WAIT!** - Reading not your thing? Don't waste your time with this report template then, instead use the In-Game Bug Reporting feature using **[F8]** to quickly and effectivly create a Bug Report.
+
+          If you cannot use the In-Game Bug Reporting feature please describe why in your Report Description. 
+
           [Other Info]
           
-          If your bug report pertains to objects disappearing or falling through the ground, have you checked the Lost & Found Box adjacent to your Personal Computer? Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~]), which offers solutions for some known bugs.
+          If your bug report pertains to objects disappearing or falling through the ground, have you checked the Lost & Found Box adjacent to your Personal Computer? Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~/`]), which offers solutions for some known bugs.
           
-          Persistent issues requiring frequent command usage for resolution are not typical. Commands are intended to address broken data, code death loops, or player stuck instances, rather than serve as a recurring means of repair. If you encounter such issues, please submit a bug report detailing the process to reproduce the bug consistently.
+          Persistent issues requiring frequent command usage for resolution are not typical. Commands are intended to correct broken data, code death loops, or player stuck instances, rather than to serve as a recurring means of repair. If you encounter such issues, please submit a bug report detailing the process to reproduce the bug consistently.
+
+  - type: dropdown
+    attributes:
+      label: Have you tried Restarting the Game/Re-Loading?
+      options:
+        - "Please Select"
+        - "No - Please explain why"
+        - "Yes"
+        - "Cannot Save/Exit due to bug"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: (If 'Yes') what was the outcome after Restarting?
+      options:
+        - "Please Select"
+        - Returned to Normal, But cannot Reproduce the Bug
+        - Returned to Normal, But was able to reproduce the Bug again - Clearly describe the steps below at Reproduction Steps
+        - Still Bugged immediately after Reloading the Game
+        - Even worse after Reloading the Game - Explain how it got worse
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: How are Decimal Numbers normally Displayed on your Machine In-Game?
+      options:
+        - "Please Select"
+        - "v0.35.6 & $45.75"
+        - "v0,35,6 & $45,75"
+        - "Neither of the above - Please explain further"
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:
@@ -31,11 +64,12 @@ body:
         Example of a well described bug; 'Each time I put a PC onto the Disassembly Desk it Vanishes, I've tried with multiple PCs and each one vanished so it wasnt a random once off, other Items all work fine, Restarting doesnt fix the issue.'
     validations:
       required: true
+
   - type: textarea
     id: reproduction
     attributes:
       label: Reproduction Steps
-      description: Please provide steps to get the same outcome as you - It's rare that a bug 'just happened for no reason' often times there is a cause behind it and even sometimes a specific series of events involved to recreate the Issue - For example, Saving/Loading can be a great way fix some bugs, but on certain occasions it can be a cause for more issues, so if you recently Saved/Loaded to then find an issue that wasnt there before, consider including this crucial information in your report
+      description: Please provide steps to get the same outcome as you - It's rare that a bug 'just happened for no reason' often times there is a cause behind it and even sometimes a very specific series of events involved to recreate the Issue - For example, Saving/Re-Loading can be a great way fix some bugs, but on certain occasions it can be a cause for more issues, so if you recently Saved/Loaded to then find an issue that wasnt there before or the Issue got worse because of this action, consider including this crucial information in your report
       placeholder: |
         EXAMPLE;
         1. Go to the Personal Computer.
@@ -46,15 +80,17 @@ body:
         6. Games Folder is now gone and cannot be Opened again.
     validations:
       required: true
+
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshot(s)/Video(s)
-      description: Consider providing Screenshot(s) and or Video(s) to help explain your issue.
+      description: Please upload screenshots and/or links to videos that help illustrate the issue (If unable to provide media type 'Not Applicable' or 'N/A' and **why**).
       placeholder: |
         Drag your Screenshot(s) below to upload them, Upload your video(s) to a Video Hosting service of choice (ie Youtube) and add the link(s) here.
     validations:
-      required: false
+      required: true
+
   - type: textarea
     id: logs
     attributes:
@@ -63,6 +99,6 @@ body:
       placeholder: |
         Please Click here and then Drag your Player.Log and Player-prev.log below to upload the files.
         You can also add your Save-File here by adding [Player.log], [Player-prev.log] and [Scrapping_Simulator_Data.es3] into a Zip folder and dragging it here.
-        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report to ensure your report doesnt get closed without a resolution. Or consider using the In-Game Report [F8] feature which takes out this hard work for you.
+        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report to ensure your report doesnt get closed without a resolution. Or consider using the In-Game Report [F8] feature which takes out the hard work of Reading and File Gathering for you.
     validations:
       required: true
