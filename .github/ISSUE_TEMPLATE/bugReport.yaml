@@ -7,8 +7,6 @@ body:
   - type: markdown
     attributes:
         value: |
-          ### [PLEASE NOTE]
-          
           > [!IMPORTANT]
           > Reading and Guidelines not your thing? Don't waste your time with this report template then, instead use the In-Game Bug Reporting feature using ***[F8]*** to quickly and effectivly create a Bug Report.
           > 
@@ -113,10 +111,15 @@ body:
 
   - type: markdown
     attributes:
-        value: |
-          ### [PLEASE NOTE]
-          
+        value: |          
           > [!CAUTION]
           > Have you made sure to include Crucial Information Such as Logs, Screenshots, Save File, Well Described Description, Reproductioon Steps, etc?
 
-          - [ ] Yes, I feel I've completed my bug report to a satisfactory standard :tada:
+  - type: dropdown
+    attributes:
+      label: Are you happy with content of your report?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
