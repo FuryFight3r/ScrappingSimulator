@@ -12,8 +12,6 @@ body:
           > 
           > Please checkout the Link below to ensure that your Report doesn't get closed without a Resolution - If you've read this Guide in the past (Prior to April 2024), have another look as it has changed a lot since.
           
-          
-
           [![How to create an Effective Bug Report](https://i.imgur.com/9ocGiJF.png)](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
 
           > [!IMPORTANT]
@@ -63,7 +61,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: How are Decimal Numbers normally Displayed on your Machine In-Game?
+      label: How is the Decimal Number Symbol normally Displayed to you In-Game?
       options:
         - "Please Select"
         - "v0.35.6 & $45.75 (Dot Point) - Provide Logs/Save File"

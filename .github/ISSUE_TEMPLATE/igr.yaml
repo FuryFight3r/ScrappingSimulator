@@ -4,9 +4,10 @@ body:
   - type: markdown
     attributes:
         value: |
-          ### [IMPORTANT] 
-          This Bug Report Template is designed for use within the In-Game Bug Report feature. Which can be accessed by pressing [F8] in-game.
-          Using this Template outside the In-Game Bug Report Interface may result in inaccurately/incomplete filled fields and automatic closure of the report.
+          > [!IMPORTANT] 
+          > This Bug Report Template is designed for use within the In-Game Bug Report feature. Which can be accessed by pressing [F8] in-game.
+          > 
+          > Using this Template outside the In-Game Bug Report Interface may result in inaccurately/incomplete filled fields and automatic closure of the report.
 
   - type: dropdown
     attributes:
@@ -33,12 +34,12 @@ body:
 
   - type: dropdown
     attributes:
-      label: How are Decimal Numbers normally Displayed on your Machine In-Game?
+      label: How is the Decimal Number Symbol normally Displayed to you In-Game?
       options:
         - "Please Select"
-        - "v0.35.6 & $45.75"
-        - "v0,35,6 & $45,75"
-        - "Neither of the above"
+        - "v0.35.6 & $45.75 (Dot Point)"
+        - "v0,35,6 & $45,75 (Comma)"
+        - "Neither of the above - Please explain further"
     validations:
       required: true
 
