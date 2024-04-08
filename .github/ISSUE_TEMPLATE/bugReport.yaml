@@ -19,11 +19,11 @@ body:
           > Reading and/or Looking for Logs not your thing? Probably best not to waste your time with this report template, instead use the [***In-Game Bug Reporting***]() feature using ***[F8]*** In-Game (Both Menu and Gameplay) to quickly, effectivly and easily create a Bug Report.
           > 
           > If you cannot use the In-Game Bug Reporting feature please describe why in your Bug Report Description - If you do not wish to use the In-Game Reporting Feature, please create a [[Suggestion]](https://github.com/FuryFight3r/ScrappingSimulator/issues/new?assignees=FuryFight3r&labels=Suggestion&projects=&template=suggestion.yaml&title=%5BSuggestion%5D%3A+%3CAdd+Title+Here%3E) to help me improve it and make it *even* easier. 
-
+          ---
           > [!WARNING]
           > Reports with the tag ***'Pending More Info'*** will be ***closed*** after 1 week of last comment if the missing Steps/Info/Logs are not Provided or no response is recieved within the week.
           > 
-          > This is to help reduce clutter and the 'Fix my issue... BYEEE' attitude on the Issue Board and keep a priority bias toward ***Well Described/Thorough*** and ***In-Game [F8] Bug Reports***. In short, Help me in helping you, which keeps development moving rather than being stuck on a bug for an unknown amount of time.
+          > This is to help reduce clutter and the 'Fix my issue... BYEEE' attitude on the Issue Board and keep a priority bias toward ***Well Described/Thorough*** and ***In-Game [F8] Bug Reports***. In short, Help me in helping you, which keeps development moving forward rather than being stuck on a mysterious bug for an unknown amount of time.
           >
           > If affected by Report Closure don't fret, simply include the missing information and Re-Open the Issue at your convenience, otherwise consider trying again with the ***In-Game Report [F8] Feature*** to help limit the ability of lacking information as this system does half the work for you and also limits the need for back and forth communication, if you prefer to just report the bug and get back to your life.
           ---
