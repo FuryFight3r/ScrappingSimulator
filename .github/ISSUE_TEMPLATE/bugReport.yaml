@@ -7,13 +7,13 @@ body:
   - type: markdown
     attributes:
         value: |
-          [PLEASE NOTE]
+          ###[PLEASE NOTE]
           
-          Before proceeding with your bug report, have you explored the **in-game bug reporting feature** accessible by pressing **[F8]**? This feature is designed to streamline the reporting process by automatically bundling essential log files and save data. While it may seem like a minor inconvenience, providing these files significantly expedites the resolution of reported issues.
+          Before proceeding with your bug report, have you explored the **In-Game Bug Reporting Feature** accessible by pressing **[F8]**? This feature was designed to streamline the reporting process by automatically bundling essential log files and save data. While it may seem like a minor inconvenience, providing these files significantly expedites the resolution of reported issues.
           
-          Recently, I've encountered numerous user/system-specific reports coming in that may not manifest on every system, making them particularly challenging to address without comprehensive information. If you encounter an issue that appears isolated to your system, it's crucial to understand that resolving such 'phantom bugs' requires Player Logs most importantly with your Bug Report. Without this info, identifying and rectifying the problem becomes akin to chasing shadows, diverting resources and time from the game's development, further delaying release.
+          Recently, I've encountered more user/system-specific reports coming in that may not manifest on every system, making them particularly challenging to address without comprehensive information. If you encounter an issue that appears isolated to your system, it's crucial to understand that resolving such 'phantom bugs' requires Player Logs most importantly with your Bug Report. Without this info, identifying and rectifying the problem becomes akin to chasing shadows, diverting resources and time from the game's development, further delaying release.
           
-          Efforts are consistently made to ensure the game functions as intended before each update release. Granted, unforeseen complications and things can be overlooked at times, remember I am one inexperienced Person trying to do it all for the first time - If a core mechanic or system is found to be dysfunctional, such as Saving/Loading, Picking up Objects, Disassembling, etc (ie the Core Mechanics), it can be unlikely to affect the entire user base as these systems are generally thourghly tested before releasing each Update and often points to a user/system-specific bug rather than a global issue.
+          Efforts are consistently made to ensure the game functions as intended before each update. Granted, unforeseen complications can happen and things can be overlooked at times, remember I am one inexperienced Person trying to do it all for the first time with minimal funding and limited spare time - If a core mechanic or system is found to be dysfunctional, such as Saving/Loading, Picking up Objects, Disassembling, etc (ie the Core Mechanics), it can be unlikely to affect the entire user base as these systems are generally thoroughly tested before releasing each Update, which could lean toward a user/system-specific bug rather than a global issue.
           
           [Other Info]
           
@@ -35,7 +35,7 @@ body:
     id: reproduction
     attributes:
       label: Reproduction Steps
-      description: Please provide steps to get the exact same outcome as you - It's very rare that a bug 'just happened for no reason' 9/10 times there is a cause behind it and even sometimes very specific Steps involved to recreate the Issue - For example, Saving/Loading can be a great way fix some bugs, but on certain occasions it can be a cause for major issues, so if you recently Saved/Loaded to then find an issue that wasnt there before, consider including this crucial information in your report
+      description: Please provide steps to get the same outcome as you - It's rare that a bug 'just happened for no reason' often times there is a cause behind it and even sometimes a specific series of events involved to recreate the Issue - For example, Saving/Loading can be a great way fix some bugs, but on certain occasions it can be a cause for more issues, so if you recently Saved/Loaded to then find an issue that wasnt there before, consider including this crucial information in your report
       placeholder: |
         EXAMPLE;
         1. Go to the Personal Computer.
@@ -59,10 +59,10 @@ body:
     id: logs
     attributes:
       label: Player Logs
-      description: Please provide your player logs - This Field is now required due to recent refusal to provide logs for User/System Specific Issues
+      description: Please provide your player logs - This field is now required due to 9/10 reports not including Logs - which over time have been made to be crucial to fixing problems quickly and effectively.
       placeholder: |
         Please Click here and then Drag your Player.Log and Player-prev.log below to upload the files.
         You can also add your Save-File here by adding [Player.log], [Player-prev.log] and [Scrapping_Simulator_Data.es3] into a Zip folder and dragging it here.
-        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report.
+        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report to ensure your report doesnt get closed without a resolution. Or consider using the In-Game Report [F8] feature which takes out this hard work for you.
     validations:
       required: true
