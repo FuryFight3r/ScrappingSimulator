@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
         value: |
-          ###[PLEASE NOTE]
+          ### [PLEASE NOTE]
           
           Before proceeding with your bug report, have you explored the **In-Game Bug Reporting Feature** accessible by pressing **[F8]**? This feature was designed to streamline the reporting process by automatically bundling essential log files and save data. While it may seem like a minor inconvenience, providing these files significantly expedites the resolution of reported issues.
           
