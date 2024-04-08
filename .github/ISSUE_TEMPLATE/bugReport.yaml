@@ -20,9 +20,10 @@ body:
           > If affected by Report Closure don't fret, simply include the missing information and Re-Open the Issue at your convenience, otherwise consider trying again with the ***In-Game Report [F8] Feature*** to help limit the ability of lacking information as this system does half the work for you and also limits the need for back and forth communication, if you prefer to just report the bug and get back to your life.
 
           > [!TIP]
-          > Other Information
           > 
-          > If your bug report pertains to objects disappearing or falling through the ground, have you considered checking the Lost & Found Box adjacent to your Personal Computer? Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~/`]), which offers solutions for some known bugs.
+          > If your bug report pertains to objects disappearing or falling through the ground, have you considered checking the Lost & Found Box adjacent to your Personal Computer? 
+          > 
+          > Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~/`]), which offers solutions for some known bugs.
           > 
           > Persistent issues requiring frequent command usage for resolution are not typical. Commands are intended to correct broken data, code death loops, or player stuck instances, rather than to serve as a recurring means of repair. If you encounter such issues, please submit a bug report detailing the process to reproduce the bug consistently.
 
