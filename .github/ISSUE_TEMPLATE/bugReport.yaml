@@ -117,7 +117,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: Are you happy with content of your report?
+      label: Are you happy with the content in your report?
       options:
         - "No"
         - "Yes"
