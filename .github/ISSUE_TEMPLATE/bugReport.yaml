@@ -1,6 +1,6 @@
 name: Bug Report Template
 description: File a bug report using the Template
-title: "[Bug]: "
+title: ""
 labels: [BUG]
 assignees: "FuryFight3r"
 body:
@@ -9,16 +9,12 @@ body:
         value: |
           [PLEASE NOTE]
 
-          Before proceeding with your bug report, have you explored the in-game bug reporting feature accessible by pressing [F8]? This feature is designed to streamline the reporting process by automatically bundling essential log files and save data. While it may seem like a minor inconvenience, providing these files significantly expedites the resolution of reported issues.
+          Before proceeding with your bug report, have you explored the [b]in-game bug reporting feature[/b] accessible by pressing [b][F8][/b]? This feature is designed to streamline the reporting process by automatically bundling essential log files and save data. While it may seem like a minor inconvenience, providing these files significantly expedites the resolution of reported issues.
 
-          Recently, I've encountered numerous user/system-specific reports coming in that may not manifest on every system, making them particularly challenging to address without comprehensive information. If you encounter an issue that appears isolated to your system, it's crucial to understand that resolving such 'phantom bugs' requires Player Logs most importantly with your Bug Report. Without this data, identifying and rectifying the problem becomes akin to chasing shadows, diverting resources and time from the game's development.
+          Recently, I've encountered numerous user/system-specific reports coming in that may not manifest on every system, making them particularly challenging to address without comprehensive information. If you encounter an issue that appears isolated to your system, it's crucial to understand that resolving such 'phantom bugs' requires Player Logs most importantly with your Bug Report. Without this info, identifying and rectifying the problem becomes akin to chasing shadows, diverting resources and time from the game's development, further delaying release.
 
-          Efforts are consistently made to ensure the game functions as intended before each update release. Granted, unforeseen complications can arise in this complex project and things can be overlooked at times - If a core mechanic or system is found to be dysfunctional, it's unlikely to affect the entire user base and often points to a user/system-specific bug rather than a global issue.
-
-          One prevalent cause of known system-specific bugs is the usage of decimal numbers displayed with commas (e.g., v0,37 instead of v0.37 or $599,95 instead of $599.95), commonly observed in European regions. As I'm not located in Europe or regions utilizing comma-style decimals, addressing these issues necessitates understanding their specifics.
-
-          Reports from users in such regions often cite difficulties loading save files, experiencing crashes during loading, or encountering missing data upon successful load. Without player logs, resolving these issues remains challenging since the majority of players—including myself—do not encounter them. Consequently, these issues are temporarily categorized as 'unfixable' until detailed logs are provided by affected users.
-
+          Efforts are consistently made to ensure the game functions as intended before each update release. Granted, unforeseen complications and things can be overlooked at times, remember I am one inexperienced Person trying to do it all for the first time - If a core mechanic or system is found to be dysfunctional, such as Saving/Loading, Picking up Objects, Disassembling, etc (ie the Core Mechanics), it can be unlikely to affect the entire user base as these systems are generally thourghly tested before releasing each Update and often points to a user/system-specific bug rather than a global issue.
+          
           [Other Info]
 
           If your bug report pertains to objects disappearing or falling through the ground, have you checked the Lost & Found Box adjacent to your Personal Computer? Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~]), which offers solutions for some known bugs.
