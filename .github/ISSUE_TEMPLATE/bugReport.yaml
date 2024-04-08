@@ -22,6 +22,8 @@ body:
 
           ---
 
+          ### Bug Report
+
   - type: dropdown
     attributes:
       label: Have you tried Restarting the Game/Re-Loading?
