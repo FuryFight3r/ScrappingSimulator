@@ -8,9 +8,9 @@ body:
     attributes:
         value: |
           > [!IMPORTANT]
-          > Reading and Looking for Logs not your thing? Probably best not to waste your time with this report template, instead use the In-Game Bug Reporting feature using ***[F8]*** to quickly, effectivly and easily create a Bug Report.
+          > Reading and Looking for Logs not your thing? Probably best not to waste your time with this report template, instead use the ***In-Game Bug Reporting*** feature using ***[F8]*** to quickly, effectivly and easily create a Bug Report.
           > 
-          > If you cannot, or do not want to use the In-Game Bug Reporting feature please describe why in your Report Description. 
+          > If you cannot, or do not want to use the In-Game Bug Reporting feature please describe why in your Report Description, to help me improve it. 
 
           > [!WARNING]
           > Reports with the tag ***'Pending More Info'*** will be automatically ***closed*** after 1 week of last comment if the missing Info/Logs are not Provided or no response is recieved within the week.
