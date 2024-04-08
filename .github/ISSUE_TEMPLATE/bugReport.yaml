@@ -7,6 +7,13 @@ body:
   - type: markdown
     attributes:
         value: |
+          > [!CAUTION]
+          > First time Creating a Bug Report for Scrapping Simulator? or does all this look New to you?
+          > 
+          > Please checkout the Link below to ensure that your Report doesn't get closed without a Resolution and to make sure your Report is up to scracth - If you've read this Guide in the past (Prior to April 2024), have another look as it has changed a lot since.
+
+          [### How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
+
           > [!IMPORTANT]
           > Reading and Looking for Logs not your thing? Probably best not to waste your time with this report template, instead use the ***In-Game Bug Reporting*** feature using ***[F8]*** to quickly, effectivly and easily create a Bug Report.
           > 
@@ -21,13 +28,13 @@ body:
 
           > [!TIP]
           > 
-          > If your bug report pertains to objects disappearing or falling through the ground, have you considered checking the Lost & Found Box adjacent to your Personal Computer? 
+          > If your bug report pertains to an object disappearing or falling through the ground, have you considered checking the Lost & Found Box adjacent to your Personal Computer? 
           > 
           > Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~/`]), which offers solutions for some known bugs.
           > 
-          > If you believe you've discovered the reproduction steps to a Bug on the Commands Panel, please share this to hopefully solve the Root Cause of the Bug, rather than relying on a Command Bandaid to temporarily fix the issue.
+          > If you believe you've discovered the reproduction steps to a Bug on the Commands Panel or to any bug for that matter, please share this to hopefully solve the Root Cause of the Bug, rather than relying on a Command Bandaid to temporarily fix the issue.
           > 
-          > Persistent issues requiring frequent command usage for resolution are not typical. Commands are intended as a one-time use to correct/fix broken data, code death loops, or player stuck instances, rather than to serve as a recurring means of repair. If you encounter such issues, consider creating a bug report in relation to this issue.
+          > Persistent issues requiring frequent command usage for resolution is not typical. Commands are intended as a one-time use to correct/fix broken data, code death loops, or player stuck instances, rather than to serve as a recurring means of repair. If you encounter such issues, consider creating a bug report in relation to this issue.
 
   - type: dropdown
     attributes:
@@ -105,11 +112,11 @@ body:
     id: logs
     attributes:
       label: Player Logs
-      description: Please provide your player logs - Unfortunately with a majority of reports lately missing Log Files, and not being able to get back in touch with OPs - Log Print Outs over time I have designed to be crucial to fixing problems very quickly and effectively, especially User/System Specific Bugs/Issues.
+      description: Please provide your player logs - Unfortunately with a majority of reports lately missing Log Files, and not being able to get back in touch with OPs, this field is now required regardless the type or nature of Bug/Issue encountered - Log Print Outs over time I have designed to be crucial to fixing problems very quickly and effectively, especially User/System Specific Bugs/Issues that are not easily repeatable on all systems/regions.
       placeholder: |
         If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report to ensure your report doesnt get closed without a resolution. Or consider using the In-Game Report [F8] feature which takes out the hard work of Reading and File Gathering for you.
-        Please Click here and then Drag your Player.Log and Player-prev.log below to upload the files.
-        You can also add your Save-File here by archiving [***Player.log***], [***Player-prev.log***] and [***Scrapping_Simulator_Data.es3***] into a ***Zip*** file and dragging it here, or Use the In-Game [F8] Bug Report Feature to do this automatically.
+        Please Click here and then Drag your [Player.log] and [Player-prev.log] below to upload the files.
+        You can also add your Save-File here by archiving [Player.log], [Player-prev.log] and [Scrapping_Simulator_Data.es3] into a Zip file and dragging it here, or Use the In-Game [F8] Bug Report Feature to have this done automatically.
     validations:
       required: true
 
