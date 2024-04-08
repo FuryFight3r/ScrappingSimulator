@@ -9,6 +9,8 @@ body:
           > 
           > Using this Template outside the In-Game Bug Report Interface may result in inaccurately/incomplete filled fields and automatic closure of the report.
 
+          If you are unable to use the ***In-Game [F8] Bug Reporting Feature*** Consider using the [Manual Bug Reporting Template](https://github.com/FuryFight3r/ScrappingSimulator/issues/new?assignees=FuryFight3r&labels=BUG&projects=&template=bugReport.yaml&title=%5BBug%5D%3A+) and create a Bug Report on the Issues faced with the In-Game Interface (Including your Player Logs).
+
   - type: dropdown
     attributes:
       label: Have you tried Restarting the Game?
