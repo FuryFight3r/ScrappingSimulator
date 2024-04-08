@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
         value: |
-          > [!CAUTION]
+          > [!IMPORTANT]
           > First time Creating a Bug Report for Scrapping Simulator? or does all this look New to you?
           > Please checkout the Button Link below to ensure that your Report doesn't get closed without a Resolution.
           > 
@@ -15,7 +15,7 @@ body:
           
           [![How to create an Effective Bug Report](https://i.imgur.com/9ocGiJF.png)](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
 
-          > [!IMPORTANT]
+          > [!TIP]
           > Looking for Logs not your thing? That's cool, try the [***In-Game Bug Reporting***]() feature using ***[[F8]]()*** In-Game (Both Menu and Gameplay) to quickly, effectivly and easily create a Bug Report instead, which makes things a bit easier.
           > 
           > If you cannot use the In-Game Bug Reporting feature please describe why in your Bug Report Description - If you do not wish to use the In-Game Reporting Feature, please create a [[Suggestion]](https://github.com/FuryFight3r/ScrappingSimulator/issues/new?assignees=FuryFight3r&labels=Suggestion&projects=&template=suggestion.yaml&title=%5BSuggestion%5D%3A+%3CAdd+Title+Here%3E) to help me improve it and make it *even* easier. 
