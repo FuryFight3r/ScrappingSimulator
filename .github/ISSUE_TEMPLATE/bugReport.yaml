@@ -102,11 +102,11 @@ body:
     id: logs
     attributes:
       label: Player Logs
-      description: Please provide your player logs - This field is now required due to 9/10 reports not including Logs - which over time I have designed to be crucial to fixing problems very quickly and effectively.
+      description: Please provide your player logs - Unfortunately with a majority of reports lately missing Log Files, and not being able to get back in touch with OPs - Log Print Outs over time I have designed to be crucial to fixing problems very quickly and effectively, especially User/System Specific Bugs/Issues.
       placeholder: |
-        Please Click here and then Drag your Player.Log and Player-prev.log below to upload the files.
-        You can also add your Save-File here by adding [Player.log], [Player-prev.log] and [Scrapping_Simulator_Data.es3] into a Zip folder and dragging it here.
         If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report to ensure your report doesnt get closed without a resolution. Or consider using the In-Game Report [F8] feature which takes out the hard work of Reading and File Gathering for you.
+        Please Click here and then Drag your Player.Log and Player-prev.log below to upload the files.
+        You can also add your Save-File here by archiving [***Player.log***], [***Player-prev.log***] and [***Scrapping_Simulator_Data.es3***] into a ***Zip*** file and dragging it here, or Use the In-Game [F8] Bug Report Feature to do this automatically.
     validations:
       required: true
 
