@@ -8,7 +8,7 @@ body:
     attributes:
         value: |
           > [!IMPORTANT]
-          > Reading and Guidelines not your thing? Don't waste your time with this report template then, instead use the In-Game Bug Reporting feature using ***[F8]*** to quickly and effectivly create a Bug Report.
+          > Reading and Looking for Logs not your thing? Probably best not to waste your time with this report template, instead use the In-Game Bug Reporting feature using ***[F8]*** to quickly and effectivly create a Bug Report.
           > 
           > If you cannot or refuse to use the In-Game Bug Reporting feature please describe why in your Report Description. 
 
@@ -17,7 +17,7 @@ body:
           > 
           > This is to help reduce clutter and the 'Fix my issue... BYEEE' attitude on the Issue Board and keep a priority bias toward ***Well Described/Thorough*** and ***In-Game [F8] Bug Reports***. In short, Help me in helping you.
           >
-          > If affected, feel free to include the missing information and Re-Open the Issue at your convenience, otherwise consider trying again with the In-Game Report Feature to help limit the ability to lack information.
+          > If affected, feel free to include the missing information and Re-Open the Issue at your convenience, otherwise consider trying again with the In-Game Report Feature to help limit the ability of lacking information as this system does half the work for you and limit the need for back and forth communication.
 
           > [!TIP]
           > Other Information

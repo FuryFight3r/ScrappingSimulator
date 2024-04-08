@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
         value: |
-          [IMPORTANT] 
+          ### [IMPORTANT] 
           This Bug Report Template is designed for use within the In-Game Bug Report feature. Which can be accessed by pressing [F8] in-game.
           Using this Template outside the In-Game Bug Report Interface may result in inaccurately/incomplete filled fields and automatic closure of the report.
 
