@@ -9,13 +9,15 @@ body:
         value: |
           ### [PLEASE NOTE]
           
-          **WAIT!** - Reading and Guidelines not your thing? Don't waste your time with this report template then, instead use the In-Game Bug Reporting feature using **[F8]** to quickly and effectivly create a Bug Report.
+          > [!IMPORTANT]
+          > Reading and Guidelines not your thing? Don't waste your time with this report template then, instead use the In-Game Bug Reporting feature using **[F8]** to quickly and effectivly create a Bug Report.
+          > If you cannot or refuse to use the In-Game Bug Reporting feature please describe why in your Report Description. 
 
-          If you cannot or refuse to use the In-Game Bug Reporting feature please describe why in your Report Description. 
+          > [!WARNING]
+          > Reports with the tag **'Pending More Info'** will be automatically **closed** after 1 week if the missing Info/Logs are not Provided or no response is recieved within the week, this is to help reduce clutter and the 'Fix This... BYEEE' attitude on the Issue Board and keep a priority bias toward **Well Described/Thorough** and **In-Game [F8] Bug Reports** - If affected, feel free to include the missing info at your convenience and Re-Open the Issue at any time if the bug is still apparent.
 
-          **NOTE:** - Reports with the tag **'Pending More Info'** will be automatically **closed** after 1 week if the missing Info/Logs are not Provided or no response is recieved within the week, this is to help reduce clutter and the 'Fix This... BYEEE' attitude on the Issue Board and keep a priority bias toward **Well Described/Thorough** and **In-Game [F8] Bug Reports** - If affected, feel free to include the missing info at your convenience and Re-Open the Issue at any time if the bug is still apparent.
-
-          [Other Info]
+          > [!TIP]
+          > Other Information
           
           If your bug report pertains to objects disappearing or falling through the ground, have you considered checking the Lost & Found Box adjacent to your Personal Computer? Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~/`]), which offers solutions for some known bugs.
           
