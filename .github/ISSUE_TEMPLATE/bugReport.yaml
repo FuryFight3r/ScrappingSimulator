@@ -9,7 +9,7 @@ body:
         value: |
           [PLEASE NOTE]
           
-          Before proceeding with your bug report, have you explored the [b]in-game bug reporting feature[/b] accessible by pressing [b][F8][/b]? This feature is designed to streamline the reporting process by automatically bundling essential log files and save data. While it may seem like a minor inconvenience, providing these files significantly expedites the resolution of reported issues.
+          Before proceeding with your bug report, have you explored the **in-game bug reporting feature** accessible by pressing **[F8]**? This feature is designed to streamline the reporting process by automatically bundling essential log files and save data. While it may seem like a minor inconvenience, providing these files significantly expedites the resolution of reported issues.
           
           Recently, I've encountered numerous user/system-specific reports coming in that may not manifest on every system, making them particularly challenging to address without comprehensive information. If you encounter an issue that appears isolated to your system, it's crucial to understand that resolving such 'phantom bugs' requires Player Logs most importantly with your Bug Report. Without this info, identifying and rectifying the problem becomes akin to chasing shadows, diverting resources and time from the game's development, further delaying release.
           
