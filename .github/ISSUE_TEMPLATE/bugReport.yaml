@@ -8,17 +8,17 @@ body:
     attributes:
         value: |
           [PLEASE NOTE]
-
+          
           Before proceeding with your bug report, have you explored the [b]in-game bug reporting feature[/b] accessible by pressing [b][F8][/b]? This feature is designed to streamline the reporting process by automatically bundling essential log files and save data. While it may seem like a minor inconvenience, providing these files significantly expedites the resolution of reported issues.
-
+          
           Recently, I've encountered numerous user/system-specific reports coming in that may not manifest on every system, making them particularly challenging to address without comprehensive information. If you encounter an issue that appears isolated to your system, it's crucial to understand that resolving such 'phantom bugs' requires Player Logs most importantly with your Bug Report. Without this info, identifying and rectifying the problem becomes akin to chasing shadows, diverting resources and time from the game's development, further delaying release.
-
+          
           Efforts are consistently made to ensure the game functions as intended before each update release. Granted, unforeseen complications and things can be overlooked at times, remember I am one inexperienced Person trying to do it all for the first time - If a core mechanic or system is found to be dysfunctional, such as Saving/Loading, Picking up Objects, Disassembling, etc (ie the Core Mechanics), it can be unlikely to affect the entire user base as these systems are generally thourghly tested before releasing each Update and often points to a user/system-specific bug rather than a global issue.
-
+          
           [Other Info]
-
+          
           If your bug report pertains to objects disappearing or falling through the ground, have you checked the Lost & Found Box adjacent to your Personal Computer? Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~]), which offers solutions for some known bugs.
-
+          
           Persistent issues requiring frequent command usage for resolution are not typical. Commands are intended to address broken data, code death loops, or player stuck instances, rather than serve as a recurring means of repair. If you encounter such issues, please submit a bug report detailing the process to reproduce the bug consistently.
   - type: textarea
     id: description
