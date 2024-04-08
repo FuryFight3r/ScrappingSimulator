@@ -25,7 +25,9 @@ body:
           > 
           > Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~/`]), which offers solutions for some known bugs.
           > 
-          > Persistent issues requiring frequent command usage for resolution are not typical. Commands are intended to correct broken data, code death loops, or player stuck instances, rather than to serve as a recurring means of repair. If you encounter such issues, please submit a bug report detailing the process to reproduce the bug consistently.
+          > If you believe you've discovered the reproduction steps to a Bug on the Commands Panel, please share this to hopefully solve the Root Cause of the Bug, rather than relying on a Command Bandaid to temporarily fix the issue.
+          > 
+          > Persistent issues requiring frequent command usage for resolution are not typical. Commands are intended as a one-time use to correct/fix broken data, code death loops, or player stuck instances, rather than to serve as a recurring means of repair. If you encounter such issues, consider creating a bug report in relation to this issue.
 
   - type: dropdown
     attributes:
