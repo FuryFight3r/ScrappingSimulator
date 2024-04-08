@@ -9,7 +9,8 @@ body:
         value: |
           > [!CAUTION]
           > First time Creating a Bug Report for Scrapping Simulator? or does all this look New to you?
-          > Please checkout the Button Link below to ensure that your Report doesn't get closed without a Resolution 
+          > Please checkout the Button Link below to ensure that your Report doesn't get closed without a Resolution.
+          > 
           > If you've read this Guide in the past (Prior to April 2024), have another look as it has changed a lot since, it's been refined, condensed and also now provides some Examples & more Tips to help you make a great Bug Report that no doubtedly will be fixed very promptly.
           
           [![How to create an Effective Bug Report](https://i.imgur.com/9ocGiJF.png)](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
