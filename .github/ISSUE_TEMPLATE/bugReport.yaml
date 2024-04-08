@@ -9,9 +9,9 @@ body:
         value: |
           ### [PLEASE NOTE]
           
-          **WAIT!** - Reading not your thing? Don't waste your time with this report template then, instead use the In-Game Bug Reporting feature using **[F8]** to quickly and effectivly create a Bug Report.
+          **WAIT!** - Reading and Guidelines not your thing? Don't waste your time with this report template then, instead use the In-Game Bug Reporting feature using **[F8]** to quickly and effectivly create a Bug Report.
 
-          If you cannot use the In-Game Bug Reporting feature please describe why in your Report Description. 
+          If you cannot/refuse to use the In-Game Bug Reporting feature please describe why in your Report Description. 
 
           [Other Info]
           
@@ -24,9 +24,9 @@ body:
       label: Have you tried Restarting the Game/Re-Loading?
       options:
         - "Please Select"
-        - "No - Please explain why"
-        - "Yes"
-        - "Cannot Save/Exit due to bug"
+        - "No - Please explain why - Provide Logs/Save File"
+        - "Yes - Provide Logs/Save File"
+        - "Cannot Save/Exit due to bug - Provide Logs/Save File"
     validations:
       required: true
 
@@ -35,10 +35,10 @@ body:
       label: (If 'Yes') what was the outcome after Restarting?
       options:
         - "Please Select"
-        - Returned to Normal, But cannot Reproduce the Bug
-        - Returned to Normal, But was able to reproduce the Bug again - Clearly describe the steps below at Reproduction Steps
-        - Still Bugged immediately after Reloading the Game
-        - Even worse after Reloading the Game - Explain how it got worse
+        - Returned to Normal, But cannot Reproduce the Bug - Provide Logs/Save File & Last Backup File
+        - Returned to Normal, But was able to reproduce the Bug again - Clearly describe the steps - Provide Logs/Save File
+        - Still Bugged immediately after Reloading the Game - Provide Logs/Save File
+        - Even worse after Reloading the Game - Explain how it got worse - Provide Logs/Save File
     validations:
       required: true
 
@@ -47,9 +47,9 @@ body:
       label: How are Decimal Numbers normally Displayed on your Machine In-Game?
       options:
         - "Please Select"
-        - "v0.35.6 & $45.75"
-        - "v0,35,6 & $45,75"
-        - "Neither of the above - Please explain further"
+        - "v0.35.6 & $45.75 (Dot Point) - Provide Logs/Save File"
+        - "v0,35,6 & $45,75 (Comma) - Provide Logs/Save File"
+        - "Neither of the above - Please explain further - Provide Logs/Save File"
     validations:
       required: true
 
@@ -59,7 +59,7 @@ body:
       label: Describe the bug
       description: A clear description of what the bug is you experienced - Try Include events leading upto the error.
       placeholder: |
-        A good Report should include events leading up to the Bug not only just the Bug itself.
+        A good Report Description should include events leading up to the Bug not only just the Bug itself.
         Example of a poorly described bug; 'PC randomly vanished for no reason'
         Example of a well described bug; 'Each time I put a PC onto the Disassembly Desk it Vanishes, I've tried with multiple PCs and each one vanished so it wasnt a random once off, other Items all work fine, Restarting doesnt fix the issue.'
     validations:
@@ -71,7 +71,7 @@ body:
       label: Reproduction Steps
       description: Please provide steps to get the same outcome as you - It's rare that a bug 'just happened for no reason' often times there is a cause behind it and even sometimes a very specific series of events involved to recreate the Issue - For example, Saving/Re-Loading can be a great way fix some bugs, but on certain occasions it can be a cause for more issues, so if you recently Saved/Loaded to then find an issue that wasnt there before or the Issue got worse because of this action, consider including this crucial information in your report
       placeholder: |
-        EXAMPLE;
+        EXAMPLE; (If you loaded into the issue being there, please include that. ex; 'Issue was apparent after loading in - No steps needed')
         1. Go to the Personal Computer.
         2. Open the Games Folder.
         3. Leave Games Folder Open and exit the PC.
@@ -85,7 +85,7 @@ body:
     id: screenshots
     attributes:
       label: Screenshot(s)/Video(s)
-      description: Please upload screenshots and/or links to videos that help illustrate the issue (If unable to provide media type 'Not Applicable' or 'N/A' and **why**).
+      description: Please upload screenshots and/or links to videos that help illustrate the issue (If unable to provide media type 'Not Applicable' or 'N/A' and **why** (ex; 'I missed the oppurtunity to capture the bug').
       placeholder: |
         Drag your Screenshot(s) below to upload them, Upload your video(s) to a Video Hosting service of choice (ie Youtube) and add the link(s) here.
     validations:
@@ -95,7 +95,7 @@ body:
     id: logs
     attributes:
       label: Player Logs
-      description: Please provide your player logs - This field is now required due to 9/10 reports not including Logs - which over time have been made to be crucial to fixing problems quickly and effectively.
+      description: Please provide your player logs - This field is now required due to 9/10 reports not including Logs - which over time I have designed to be crucial to fixing problems very quickly and effectively.
       placeholder: |
         Please Click here and then Drag your Player.Log and Player-prev.log below to upload the files.
         You can also add your Save-File here by adding [Player.log], [Player-prev.log] and [Scrapping_Simulator_Data.es3] into a Zip folder and dragging it here.
