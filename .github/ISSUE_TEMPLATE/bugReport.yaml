@@ -124,4 +124,4 @@ body:
         - "No"
         - "Yes"
     validations:
-      required: true
+      required: false
