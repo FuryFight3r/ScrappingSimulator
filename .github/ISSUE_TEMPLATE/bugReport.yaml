@@ -113,7 +113,9 @@ body:
     attributes:
         value: |          
           > [!CAUTION]
-          > Have you made sure to include Crucial Information Such as Logs, Screenshots, Save File, Well Described Description, Reproductioon Steps, etc?
+          > Have you made sure to include Crucial Information Such as Logs, Screenshots, Save File, Bug Description, Reproductioon Steps, etc?
+          > 
+          > Please double check to make sure you are not missing any important information that could help fix your problem quickly.
 
   - type: dropdown
     attributes:
