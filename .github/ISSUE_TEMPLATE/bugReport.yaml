@@ -13,9 +13,11 @@ body:
 
           If you cannot/refuse to use the In-Game Bug Reporting feature please describe why in your Report Description. 
 
+          **NOTE:** - Reports with the tag 'Pending More Info' will be automatically closed after 1 week if the missing Info/Logs are not Provided or no response is recieved to help reduce clutter on the Issue Board and keep the priority toward Thorough and In-Game [F8] Bug Reports - If affected, feel free to include the missing info at your convenience and Re-Open the Issue at any time.
+
           [Other Info]
           
-          If your bug report pertains to objects disappearing or falling through the ground, have you checked the Lost & Found Box adjacent to your Personal Computer? Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~/`]), which offers solutions for some known bugs.
+          If your bug report pertains to objects disappearing or falling through the ground, have you considered checking the Lost & Found Box adjacent to your Personal Computer? Additionally, for any other unusual occurrences, consider accessing the Commands panel (accessible via [F1] or Tilde [~/`]), which offers solutions for some known bugs.
           
           Persistent issues requiring frequent command usage for resolution are not typical. Commands are intended to correct broken data, code death loops, or player stuck instances, rather than to serve as a recurring means of repair. If you encounter such issues, please submit a bug report detailing the process to reproduce the bug consistently.
 
