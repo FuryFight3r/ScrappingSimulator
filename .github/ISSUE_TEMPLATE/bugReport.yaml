@@ -79,7 +79,7 @@ body:
       label: Reproduction Steps
       description: Please provide steps to get the same outcome as you - It's rare that a bug 'just happened for no reason' often times there is a cause behind it and even sometimes a very specific series of events involved to recreate the Issue - For example, Saving/Re-Loading can be a great way fix some bugs, but on certain occasions it can be a cause for more issues, so if you recently Saved/Loaded to then find an issue that wasnt there before or the Issue got worse because of this action, consider including this crucial information in your report
       placeholder: |
-        EXAMPLE; (If you loaded into the issue being there, please include that. ex; 'Issue was apparent after loading in - No steps needed')
+        EXAMPLE;
         1. Go to the Personal Computer.
         2. Open the Games Folder.
         3. Leave Games Folder Open and exit the PC.
