@@ -132,7 +132,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: Do you feel the Bug can be fixed given the information you've provided? - If not consider including more Information
+      label: Do you feel the Bug can be fixed given the information you've provided? - If not consider including more Information About the Bug and Before the Bug
       options:
         - "No"
         - "Yes"

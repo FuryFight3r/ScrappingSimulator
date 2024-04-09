@@ -69,9 +69,22 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Describe the Bug
-      description: Please describe the bug, including events leading up to its occurrence to help track it's potential cause.
-      placeholder: Please describe the bug you experienced
+      label: Describe what happened before the Bug
+      description: A clear description of what happened before you experienced the Bug.
+      placeholder: |
+        Providing NOT Only the Bug itself in your Bug Report, but also the events and what you were doing leading up to the bug can make or break getting your bug fixed promptly
+        Example; Everything was fine initially, I had taken part 3 PC's before but then after the 3rd, each one Vanished when I put it onto the Disassembly Desk
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: Describe the bug
+      description: A clear description of what the bug is you experienced
+      placeholder: |
+        Example of a poorly described bug; 'PC randomly vanished for no reason'
+        Example of a well described bug; 'Each time I put a PC onto the Disassembly Desk it Vanishes, I've tried with multiple PCs and each one vanished, so it wasn't a random once off, other Items all work fine, Restarting doesn't fix the issue.'
     validations:
       required: true
 
@@ -99,3 +112,24 @@ body:
         Drag your screenshot(s) here to upload. For videos, please provide links to video host services like YouTube (Click this box first to activate the Text Box).
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |          
+        > [!CAUTION]
+        > Have you made sure to include Crucial Information Such as Logs, Description & Reproductioon Steps?
+        > 
+        > Please double check to make sure you are not missing any important information that could help fix your problem quickly.
+        >
+        > Otherwise your Bug Report Issue may be closed without a Resolution if doesn't provide enough information for me to Investigate
+        >
+        > If you are struggling with what to provide and how to provide Logs/Details etc refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
+
+  - type: dropdown
+    attributes:
+      label: Do you feel the Bug can be fixed given the information you've provided? - If not consider including more Information About the Bug and Before the Bug
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: false
