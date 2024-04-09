@@ -6,23 +6,23 @@ assignees: "FuryFight3r"
 body:
   - type: markdown
     attributes:
-        value: |
-          > [!IMPORTANT]
-          > First time Creating a Bug Report for Scrapping Simulator? or does all this look New to you?
-          > Please checkout the Button Link below to ensure that your Report doesn't get closed without a Resolution.
-          > 
-          > If you've read this Guide in the past (Prior to April 2024), have another look as it has changed a lot since, it's been Reworked and also now provides some Examples & more Tips to help you make a great Bug Report that likely will be fixed very promptly.
+      value: |
+        > [!IMPORTANT]
+        > First time Creating a Bug Report for Scrapping Simulator? or does all this look New to you?
+        > Please checkout the Button Link below to ensure that your Report doesn't get closed without a Resolution.
+        > 
+        > If you've read this Guide in the past (Prior to April 2024), have another look as it has changed a lot since, it's been Reworked and also now provides some Examples & more Tips to help you make a great Bug Report that likely will be fixed very promptly.
 
-          [![How to create an Effective Bug Report](https://i.imgur.com/9ocGiJF.png)](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
-          
-          > [!TIP]
-          > Looking for Logs not your thing? That's cool, try the [***In-Game Bug Reporting***]() feature using ***[[F8]]()*** In-Game (Both Menu and Gameplay) to quickly, effectivly and easily create a Bug Report instead, which can make things a bit easier.
-          > 
-          > If you cannot use the In-Game Bug Reporting feature please describe why in your Bug Report Description - If you do not wish to use the In-Game Reporting Feature, please create a [[Suggestion]](https://github.com/FuryFight3r/ScrappingSimulator/issues/new?assignees=FuryFight3r&labels=Suggestion&projects=&template=suggestion.yaml&title=%5BSuggestion%5D%3A+%3CAdd+Title+Here%3E) on how I can improve it and make it easier. 
+        [![How to create an Effective Bug Report](https://i.imgur.com/9ocGiJF.png)](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
+        
+        > [!TIP]
+        > Looking for Logs not your thing? That's cool, try the [***In-Game Bug Reporting***]() feature using ***[[F8]]()*** In-Game (Both Menu and Gameplay) to quickly, effectivly and easily create a Bug Report instead, which can make things a bit easier.
+        > 
+        > If you cannot use the In-Game Bug Reporting feature please describe why in your Bug Report Description - If you do not wish to use the In-Game Reporting Feature, please create a [[Suggestion]](https://github.com/FuryFight3r/ScrappingSimulator/issues/new?assignees=FuryFight3r&labels=Suggestion&projects=&template=suggestion.yaml&title=%5BSuggestion%5D%3A+%3CAdd+Title+Here%3E) on how I can improve it and make it easier. 
 
-          ---
+        ---
 
-          # Bug Report
+        # Bug Report
 
   - type: dropdown
     attributes:
@@ -120,19 +120,19 @@ body:
 
   - type: markdown
     attributes:
-        value: |          
-          > [!CAUTION]
-          > Have you made sure to include Crucial Information Such as Logs/Save File, Screenshots (or a reason why you couldn't provide any), Bug Description, Reproductioon Steps, etc?
-          > 
-          > Please double check to make sure you are not missing any important information that could help fix your problem quickly.
-          >
-          > Otherwise your Bug Report Issue may be closed without a Resolution if doesnt provide enough information for me to Investigate
-          >
-          > If you are struggling with what to provide and how to provide Logs/Details etc refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
+      value: |          
+        > [!CAUTION]
+        > Have you made sure to include Crucial Information Such as Logs/Save File, Screenshots (or a reason why you couldn't provide any), Bug Description, Reproductioon Steps, etc?
+        > 
+        > Please double check to make sure you are not missing any important information that could help fix your problem quickly.
+        >
+        > Otherwise your Bug Report Issue may be closed without a Resolution if doesnt provide enough information for me to Investigate
+        >
+        > If you are struggling with what to provide and how to provide Logs/Details etc refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
 
   - type: dropdown
     attributes:
-      label: Do you feel the Bug can be fixed given the information you've porovided? - If not consider including more Information
+      label: Do you feel the Bug can be fixed given the information you've provided? - If not consider including more Information
       options:
         - "No"
         - "Yes"
