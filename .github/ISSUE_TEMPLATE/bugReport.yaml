@@ -70,13 +70,13 @@ body:
       required: true
 
   - type: textarea
-    id: description
+    id: bug_description
     attributes:
       label: Describe the bug
       description: A clear description of what the bug is you experienced
       placeholder: |
         Example of a poorly described bug; 'PC randomly vanished for no reason'
-        Example of a well described bug; 'Each time I put a PC onto the Disassembly Desk it Vanishes, I've tried with multiple PCs and each one vanished, so it wasnt a random once off, other Items all work fine, Restarting doesnt fix the issue.'
+        Example of a well described bug; 'Each time I put a PC onto the Disassembly Desk it Vanishes, I've tried with multiple PCs and each one vanished, so it wasn't a random once off, other Items all work fine, Restarting doesn't fix the issue.'
     validations:
       required: true
 
@@ -100,7 +100,7 @@ body:
     id: screenshots
     attributes:
       label: Screenshot(s)/Video(s)
-      description: Please upload screenshots and/or links to videos that help illustrate the issue (If unable to provide media type 'Not Applicable' or 'N/A' and **why** (ex; 'I missed the oppurtunity to capture the bug').
+      description: Please upload screenshots and/or links to videos that help illustrate the issue (If unable to provide media type 'Not Applicable' or 'N/A' and **why** (ex; 'I missed the opportunity to capture the bug').
       placeholder: |
         Drag your Screenshot(s) below to upload them, Upload your video(s) to a Video Hosting service of choice (ie Youtube, Drive etc) and add the link(s) here.
     validations:
@@ -112,9 +112,9 @@ body:
       label: Player Logs
       description: Provide your player logs - If unsure how - refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
       placeholder: |
-        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report to ensure your report doesnt get closed without a resolution. Or consider using the In-Game Report [F8] feature which takes out the hard work of File Locating and Packing for you.
+        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report to ensure your report doesn't get closed without a resolution. Or consider using the In-Game Report [F8] feature which takes out the hard work of File Locating and Packing for you.
         Please Click here and then Drag your [Player.log] and [Player-prev.log] below to upload the files.
-        You can also add your Save-File here by archiving [Player.log], [Player-prev.log] and [Scrapping_Simulator_Data.es3] into a Zip file and dragging it here, or Use the In-Game [F8] Bug Report Feature to have this done automatically.
+        You can also add your Save-File here by archiving [Player.log], [Player-prev.log], and [Scrapping_Simulator_Data.es3] into a Zip file and dragging it here, or Use the In-Game [F8] Bug Report Feature to have this done automatically.
     validations:
       required: true
 
@@ -126,7 +126,7 @@ body:
         > 
         > Please double check to make sure you are not missing any important information that could help fix your problem quickly.
         >
-        > Otherwise your Bug Report Issue may be closed without a Resolution if doesnt provide enough information for me to Investigate
+        > Otherwise your Bug Report Issue may be closed without a Resolution if doesn't provide enough information for me to Investigate
         >
         > If you are struggling with what to provide and how to provide Logs/Details etc refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
 
