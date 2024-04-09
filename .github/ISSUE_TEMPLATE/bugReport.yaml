@@ -11,14 +11,14 @@ body:
           > First time Creating a Bug Report for Scrapping Simulator? or does all this look New to you?
           > Please checkout the Button Link below to ensure that your Report doesn't get closed without a Resolution.
           > 
-          > If you've read this Guide in the past (Prior to April 2024), have another look as it has changed a lot since, it's been refined, condensed and also now provides some Examples & more Tips to help you make a great Bug Report that likely will be fixed very promptly.
+          > If you've read this Guide in the past (Prior to April 2024), have another look as it has changed a lot since, it's been Reworked and also now provides some Examples & more Tips to help you make a great Bug Report that likely will be fixed very promptly.
 
           [![How to create an Effective Bug Report](https://i.imgur.com/9ocGiJF.png)](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
           
           > [!TIP]
           > Looking for Logs not your thing? That's cool, try the [***In-Game Bug Reporting***]() feature using ***[[F8]]()*** In-Game (Both Menu and Gameplay) to quickly, effectivly and easily create a Bug Report instead, which can make things a bit easier.
           > 
-          > If you cannot use the In-Game Bug Reporting feature please describe why in your Bug Report Description - If you do not wish to use the In-Game Reporting Feature, please create a [[Suggestion]](https://github.com/FuryFight3r/ScrappingSimulator/issues/new?assignees=FuryFight3r&labels=Suggestion&projects=&template=suggestion.yaml&title=%5BSuggestion%5D%3A+%3CAdd+Title+Here%3E) to help me improve it and make it easier. 
+          > If you cannot use the In-Game Bug Reporting feature please describe why in your Bug Report Description - If you do not wish to use the In-Game Reporting Feature, please create a [[Suggestion]](https://github.com/FuryFight3r/ScrappingSimulator/issues/new?assignees=FuryFight3r&labels=Suggestion&projects=&template=suggestion.yaml&title=%5BSuggestion%5D%3A+%3CAdd+Title+Here%3E) on how I can improve it and make it easier. 
 
           ---
 
@@ -26,7 +26,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: Have you tried Restarting the Game/Re-Loading?
+      label: Have you tried Reloading?
       options:
         - "Please Select"
         - "No - Please explain why - Provide Logs/Save File"
@@ -41,7 +41,7 @@ body:
       options:
         - "Please Select"
         - Returned to Normal, But cannot Reproduce the Bug - Provide Logs/Save File & Last Backup File
-        - Returned to Normal, But was able to reproduce the Bug again - Clearly describe the steps - Provide Logs/Save File
+        - Returned to Normal, But was able to reproduce the Bug again - Clearly describe the steps needed for reproduction - Provide Logs/Save File
         - Still Bugged immediately after Reloading the Game - Provide Logs/Save File
         - Even worse after Reloading the Game - Explain how it got worse - Provide Logs/Save File
     validations:
@@ -61,12 +61,22 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Describe the bug
-      description: A clear description of what the bug is you experienced - Try Include events leading upto the error.
+      label: Describe what happened before the Bug
+      description: A clear description of what happened before you experienced the Bug.
       placeholder: |
-        A good Report Description should include events leading up to the Bug not only just the Bug itself.
+        Providing NOT Only the Bug itself in your Bug Report, but also the events and what you were doing leading up to the bug can make or break getting your bug fixed promptly
+        Example; Everything was fine initially, I had taken part 3 PC's before but then after the 3rd, each one Vanished when I put it onto the Disassembly Desk
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear description of what the bug is you experienced
+      placeholder: |
         Example of a poorly described bug; 'PC randomly vanished for no reason'
-        Example of a well described bug; 'Each time I put a PC onto the Disassembly Desk it Vanishes, I've tried with multiple PCs and each one vanished so it wasnt a random once off, other Items all work fine, Restarting doesnt fix the issue.'
+        Example of a well described bug; 'Each time I put a PC onto the Disassembly Desk it Vanishes, I've tried with multiple PCs and each one vanished, so it wasnt a random once off, other Items all work fine, Restarting doesnt fix the issue.'
     validations:
       required: true
 
@@ -74,7 +84,7 @@ body:
     id: reproduction
     attributes:
       label: Reproduction Steps
-      description: Please provide steps to get the same outcome as you - It's rare that a bug 'just happened for no reason' often times there is a cause behind it and even sometimes a very specific series of events involved to recreate the Issue - For example, Saving/Re-Loading can be a great way fix some bugs, but on certain occasions it can be a cause for more issues, so if you recently Saved/Loaded to then find an issue that wasnt there before or the Issue got worse because of this action, consider including this crucial information in your report
+      description: Please provide steps needed to repeat this Bug - It's rare that a bug 'just happened for no reason' - Please try re-call what you had done and were doing before this bug occurred.
       placeholder: |
         EXAMPLE;
         1. Go to the Personal Computer.
@@ -92,7 +102,7 @@ body:
       label: Screenshot(s)/Video(s)
       description: Please upload screenshots and/or links to videos that help illustrate the issue (If unable to provide media type 'Not Applicable' or 'N/A' and **why** (ex; 'I missed the oppurtunity to capture the bug').
       placeholder: |
-        Drag your Screenshot(s) below to upload them, Upload your video(s) to a Video Hosting service of choice (ie Youtube) and add the link(s) here.
+        Drag your Screenshot(s) below to upload them, Upload your video(s) to a Video Hosting service of choice (ie Youtube, Drive etc) and add the link(s) here.
     validations:
       required: true
 
@@ -100,9 +110,9 @@ body:
     id: logs
     attributes:
       label: Player Logs
-      description: Please provide your player logs - Unfortunately with a majority of reports lately missing Log Files, and not being able to get back in touch with OPs, this field is now required regardless the type or nature of Bug/Issue encountered - Log Print Outs over time I have designed to be crucial to fixing problems very quickly and effectively, especially User/System Specific Bugs/Issues that are not easily repeatable on all systems/regions.
+      description: Provide your player logs - If unsure how - refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
       placeholder: |
-        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report to ensure your report doesnt get closed without a resolution. Or consider using the In-Game Report [F8] feature which takes out the hard work of Reading and File Gathering for you.
+        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step) Wiki before creating a Bug Report to ensure your report doesnt get closed without a resolution. Or consider using the In-Game Report [F8] feature which takes out the hard work of File Locating and Packing for you.
         Please Click here and then Drag your [Player.log] and [Player-prev.log] below to upload the files.
         You can also add your Save-File here by archiving [Player.log], [Player-prev.log] and [Scrapping_Simulator_Data.es3] into a Zip file and dragging it here, or Use the In-Game [F8] Bug Report Feature to have this done automatically.
     validations:
@@ -112,13 +122,17 @@ body:
     attributes:
         value: |          
           > [!CAUTION]
-          > Have you made sure to include Crucial Information Such as Logs, Screenshots, Save File, Bug Description, Reproductioon Steps, etc?
+          > Have you made sure to include Crucial Information Such as Logs/Save File, Screenshots (or a reason why you couldn't provide any), Bug Description, Reproductioon Steps, etc?
           > 
           > Please double check to make sure you are not missing any important information that could help fix your problem quickly.
+          >
+          > Otherwise your Bug Report Issue may be closed without a Resolution if doesnt provide enough information for me to Investigate
+          >
+          > If you are struggling with what to provide and how to provide Logs/Details etc refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
 
   - type: dropdown
     attributes:
-      label: Are you happy with the content in your report?
+      label: Do you feel the Bug can be fixed given the information you've porovided? - If not consider including more Information
       options:
         - "No"
         - "Yes"
