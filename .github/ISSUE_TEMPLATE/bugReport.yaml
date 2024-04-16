@@ -59,17 +59,6 @@ body:
       required: true
 
   - type: textarea
-    id: description
-    attributes:
-      label: Describe what happened before the Bug
-      description: A clear description of what happened before you experienced the Bug.
-      placeholder: |
-        Providing NOT Only the Bug itself in your Bug Report, but also the events and what you were doing leading up to the bug can make or break getting your bug fixed promptly
-        Example; Everything was fine initially, I had taken part 3 PC's before but then after the 3rd, each one Vanished when I put it onto the Disassembly Desk
-    validations:
-      required: true
-
-  - type: textarea
     id: bug_description
     attributes:
       label: Describe the bug
