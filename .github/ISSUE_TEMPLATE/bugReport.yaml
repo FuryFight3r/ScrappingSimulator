@@ -37,7 +37,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: (If 'Yes') what was the outcome after Restarting?
+      label: (If 'Yes') what was the outcome after Reloading?
       options:
         - "Please Select"
         - Returned to Normal, But cannot Reproduce the Bug
