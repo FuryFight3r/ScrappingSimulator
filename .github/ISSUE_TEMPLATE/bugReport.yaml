@@ -8,18 +8,8 @@ body:
     attributes:
       value: |
         > [!IMPORTANT]
-        > First time Creating a Bug Report for Scrapping Simulator? or does all this look New to you?
-        > Please checkout the Button Link below.
-        > 
-        > If you've read this Guide in the past (Prior to April 2024), have another look as it has changed a lot since, it's been Reworked and also now provides some Examples & more Tips to help you make a great Bug Report that likely will be fixed very promptly.
-
-        [![How to create an Effective Bug Report](https://i.imgur.com/9ocGiJF.png)](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
-        
-        > [!TIP]
-        > Looking for Logs not your thing? That's cool, try the [***In-Game Bug Reporting***]() feature using ***[[F8]]()*** In-Game (Both Menu and Gameplay) to quickly, effectivly and easily create a Bug Report instead, which can make things a bit easier.
-        > 
-        > If you cannot use the In-Game Bug Reporting feature please describe why in your Bug Report Description so this Issue can also be resolved - If you do not wish to use the In-Game Reporting Feature, please create a [[Suggestion]](https://github.com/FuryFight3r/ScrappingSimulator/issues/new?assignees=FuryFight3r&labels=Suggestion&projects=&template=suggestion.yaml&title=%5BSuggestion%5D%3A+%3CAdd+Title+Here%3E) on how I can improve it and or make it easier. 
-
+        > Please provide as much information as possible to help us in helping you.
+        > Don't like typing a bunch of words? Not a problem! Send in your Logfiles and a Screenshot/Video, these are almost always better than a Thousand Words anyway.
         ---
 
         # Bug Report
@@ -49,12 +39,12 @@ body:
 
   - type: dropdown
     attributes:
-      label: How is the Decimal Number Symbol normally Displayed to you In-Game?
+      label: How is the Decimal Number Symbol normally Displayed to you In-Game (Specific bugs are Caused by 'Comma Bug')?
       options:
         - "Please Select"
         - "v0.35.6 & $45.75 (Dot Point)"
         - "v0,35,6 & $45,75 (Comma)"
-        - "Neither of the above - Please explain further"
+        - "Other - Please explain further"
     validations:
       required: true
 
@@ -64,7 +54,7 @@ body:
       label: Describe the Bug
       description: Please describe the Bug you encountered
       placeholder: |
-        Please describe the Bug you encountered
+        Please describe the Bug you encountered as best you can
     validations:
       required: true
 
@@ -72,7 +62,7 @@ body:
     id: reproduction
     attributes:
       label: Reproduction Steps
-      description: Please provide steps needed to repeat this Bug - If you Loaded into a random Bug or an Update broke your save or an Update Introduced a Bug for you please state as such
+      description: Please provide steps needed to repeat this Bug
       placeholder: |
         EXAMPLE;
         1. Go to the Personal Computer.
@@ -88,7 +78,7 @@ body:
     id: screenshots
     attributes:
       label: Screenshot(s)/Video(s)
-      description: Please upload screenshots and/or links to videos that help illustrate the issue (If unable to provide media just put 'Not Applicable' or 'N/A').
+      description: Please upload screenshots/videos and/or links to videos that help illustrate the issue (If unable to provide media just put 'Not Applicable' or 'N/A').
       placeholder: |
         Drag your Screenshot(s) below to upload them, Upload your video(s) to a Video Hosting service of choice (ie Youtube, Drive etc) and add the link(s) here.
     validations:
@@ -98,11 +88,10 @@ body:
     id: logs
     attributes:
       label: Player Logs
-      description: Provide your player logs - If unsure how - refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
+      description: Provide your player logs - If unsure how - refer to the [Where to Find Log Files (Manually)](https://github.com/FuryFight3r/ScrappingSimulator/wiki/Where-to-find-Scrapping-Simulator-Save-File-and-Error-Logs)
       placeholder: |
-        If you are unsure of where to find your Player Logs or Save File please refer to the [How to create an effective Bug Report] Wiki before creating a Bug Report to ensure your report doesn't get closed without a resolution.
         Please Click here and then Drag your [Player.log] and [Player-prev.log] below to upload the files.
-        You can also add your Save-File here by archiving [Player.log], [Player-prev.log], and [Scrapping_Simulator_Data.es3] into a Zip file and dragging it here, or Use the In-Game [F8] Bug Report Feature to have all this done automatically.
+        You can also add your Save-File here by archiving [Player.log], [Player-prev.log], and [Scrapping_Simulator_Data.es3] into a Zip file and dragging it here.
     validations:
       required: true
 
@@ -110,20 +99,6 @@ body:
     attributes:
       value: |          
         > [!CAUTION]
-        > Have you made sure to include Crucial Information Such as Logs, Description & Reproductioon Steps?
-        > 
-        > Please double check to make sure you are not missing any important information that could help fix your Bug quickly.
-        >
-        > Otherwise your Bug Report Issue may be closed without a Resolution if doesn't provide enough information for me to Investigate
-        >
-        > If you are struggling with what to provide and how to provide Logs/Save etc refer to the [How to create an effective Bug Report](https://github.com/FuryFight3r/ScrappingSimulator/wiki/How-to-Create-an-effective-Bug-Report#first-step)
-
-  - type: dropdown
-    attributes:
-      label: Do you feel the Bug can be fixed given the information you've provided?
-      description: If not consider including more Information About the Bug - Not a fan of typing? "A Picture is worth a thousand words."
-      options:
-        - "No"
-        - "Yes"
-    validations:
-      required: false
+        > Please provide as much information as possible;
+        > Less information = More time to Fix (if at all).
+        > More information = Less time to Fix, Easier to understand and reporoduce the issue.
